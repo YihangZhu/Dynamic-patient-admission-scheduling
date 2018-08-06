@@ -1,0 +1,7 @@
+Exception in thread "main" java.lang.IllegalMonitorStateException: The two values are different!	0.0	-7.615385103587613E-5
+	at isUnequal(Util.java:216)
+	at algorithm.columnGeneration.PricingEAbs.solve(PricingEAbs.java:39)
+	at algorithm.columnGeneration.PricingHAbs.solve(PricingHAbs.java:63)
+	at algorithm.columnGeneration.MasterAbs.solvePricing(MasterAbs.java:56)
+	at pas.algoritm.mp.cg.MasterPatient.solve(MasterPatient.java:224)
+	at pas.algoritm.mp.cg.MasterPatient.main(MasterPatient.java:301)

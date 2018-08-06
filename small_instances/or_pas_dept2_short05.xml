@@ -1,0 +1,2674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  ~ Copyright (c) 1/22/18 4:28 PM
+  ~ Author: Yi-Hang Zhu
+  -->
+
+<OrPasu_instance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://bitbucket.org/satt/or-pas/raw/master/OrPasInstance.xsd" name="OR_PASU170423-115205">
+  <descriptor>
+    <Departments>2</Departments>
+    <Rooms>25</Rooms>
+    <Features>5</Features>
+    <Patients>310</Patients>
+    <Specialisms>9</Specialisms>
+    <Horizon start_day="2017-04-23" num_days="14"/>
+    <Treatments>15</Treatments>
+  </descriptor>
+  <specialisms>
+    <specialism>Critical_Care</specialism>
+    <specialism>Diabetology</specialism>
+    <specialism>Endocrinology</specialism>
+    <specialism>Gastroenterology</specialism>
+    <specialism>General_Surgery</specialism>
+    <specialism>Internal_Medicine</specialism>
+    <specialism>Orthopaedics</specialism>
+    <specialism>Urological_Surgery</specialism>
+    <specialism>Vascular_Surgery</specialism>
+  </specialisms>
+  <features>
+    <feature>infusion_pump</feature>
+    <feature>nitrogen</feature>
+    <feature>oxygen</feature>
+    <feature>telemetry</feature>
+    <feature>television</feature>
+  </features>
+  <departments>
+    <department name="General_Medicine">
+      <main_specialisms>
+        <main_specialism>Internal_Medicine</main_specialism>
+        <main_specialism>Endocrinology</main_specialism>
+        <main_specialism>Diabetology</main_specialism>
+      </main_specialisms>
+      <aux_specialisms>
+        <aux_specialism>Critical_Care</aux_specialism>
+      </aux_specialisms>
+    </department>
+    <department name="General_Surgery">
+      <main_specialisms>
+        <main_specialism>General_Surgery</main_specialism>
+        <main_specialism>Critical_Care</main_specialism>
+        <main_specialism>Urological_Surgery</main_specialism>
+        <main_specialism>Vascular_Surgery</main_specialism>
+        <main_specialism>Orthopaedics</main_specialism>
+        <main_specialism>Gastroenterology</main_specialism>
+      </main_specialisms>
+      <aux_specialisms>
+        <aux_specialism>Internal_Medicine</aux_specialism>
+      </aux_specialisms>
+    </department>
+  </departments>
+  <rooms>
+    <room name="R_0" capacity="6" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_1" capacity="6" department="General_Medicine" gender_policy="FemaleOnly">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>telemetry</feature>
+      </features>
+    </room>
+    <room name="R_2" capacity="4" department="General_Surgery" gender_policy="MaleOnly">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_3" capacity="6" department="General_Surgery" gender_policy="Any">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_4" capacity="2" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_5" capacity="2" department="General_Medicine" gender_policy="FemaleOnly">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_6" capacity="4" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+      </features>
+    </room>
+    <room name="R_7" capacity="1" department="General_Medicine" gender_policy="SameGender">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+      </features>
+    </room>
+    <room name="R_8" capacity="1" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>nitrogen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_9" capacity="1" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_10" capacity="6" department="General_Surgery" gender_policy="Any">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>oxygen</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_11" capacity="4" department="General_Surgery" gender_policy="FemaleOnly">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_12" capacity="4" department="General_Surgery" gender_policy="Any">
+      <features>
+        <feature>oxygen</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_13" capacity="2" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_14" capacity="2" department="General_Surgery" gender_policy="FemaleOnly">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_15" capacity="2" department="General_Surgery" gender_policy="FemaleOnly">
+      <features>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_16" capacity="1" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_17" capacity="4" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_18" capacity="4" department="General_Surgery" gender_policy="MaleOnly">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_19" capacity="1" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+      </features>
+    </room>
+    <room name="R_20" capacity="6" department="General_Medicine" gender_policy="Any">
+      <features>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+      </features>
+    </room>
+    <room name="R_21" capacity="2" department="General_Surgery" gender_policy="Any">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_22" capacity="4" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_23" capacity="4" department="General_Surgery" gender_policy="FemaleOnly">
+      <features>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+    <room name="R_24" capacity="4" department="General_Surgery" gender_policy="SameGender">
+      <features>
+        <feature>infusion_pump</feature>
+        <feature>nitrogen</feature>
+        <feature>oxygen</feature>
+        <feature>telemetry</feature>
+        <feature>television</feature>
+      </features>
+    </room>
+  </rooms>
+  <treatments>
+    <treatment name="Critical_Care_Treatment" specialism="Critical_Care" surgery="0"/>
+    <treatment name="Diabetology_Disease_Treatment" specialism="Diabetology" surgery="0"/>
+    <treatment name="Endocrine_Disease_Treatment" specialism="Endocrinology" surgery="0"/>
+    <treatment name="Gastroenteric_Diseases_Treatment" specialism="Gastroenterology" surgery="0"/>
+    <treatment name="Gastroenterology_Surgery_Treatment" specialism="Gastroenterology" length="105" surgery="1"/>
+    <treatment name="Abdominal_Surgery_Treatment" specialism="General_Surgery" length="105" surgery="1"/>
+    <treatment name="Breast_Surgery_Treatment" specialism="General_Surgery" length="70" surgery="1"/>
+    <treatment name="Obesity_Surgery_Treatment" specialism="General_Surgery" length="100" surgery="1"/>
+    <treatment name="Generic_Emergency_Treatment" specialism="Internal_Medicine" surgery="0"/>
+    <treatment name="Cardiac_Insufficiency_Treatment" specialism="Internal_Medicine" surgery="0"/>
+    <treatment name="Respiratory_Failure_Treatment" specialism="Internal_Medicine" surgery="0"/>
+    <treatment name="Orthopaedics_Hospitalization" specialism="Orthopaedics" surgery="0"/>
+    <treatment name="Orthopaedics_Surgery_Treatment" specialism="Orthopaedics" length="160" surgery="1"/>
+    <treatment name="Urological_Surgery_Treatment" specialism="Urological_Surgery" length="35" surgery="1"/>
+    <treatment name="Vascular_Surgery_Treatment" specialism="Vascular_Surgery" length="50" surgery="1"/>
+  </treatments>
+  <or_slots slot_length="180">
+    <day name="2017-04-24">
+      <specialism_assignment name="Urological_Surgery" number_or_slots="4"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="1"/>
+      <specialism_assignment name="Orthopaedics" number_or_slots="3"/>
+      <specialism_assignment name="Gastroenterology" number_or_slots="1"/>
+    </day>
+    <day name="2017-04-25">
+      <specialism_assignment name="General_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Urological_Surgery" number_or_slots="2"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Orthopaedics" number_or_slots="1"/>
+    </day>
+    <day name="2017-04-26">
+      <specialism_assignment name="General_Surgery" number_or_slots="2"/>
+      <specialism_assignment name="Urological_Surgery" number_or_slots="1"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="4"/>
+      <specialism_assignment name="Orthopaedics" number_or_slots="2"/>
+    </day>
+    <day name="2017-04-27">
+      <specialism_assignment name="General_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="2"/>
+      <specialism_assignment name="Orthopaedics" number_or_slots="2"/>
+      <specialism_assignment name="Gastroenterology" number_or_slots="2"/>
+    </day>
+    <day name="2017-04-28">
+      <specialism_assignment name="General_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Urological_Surgery" number_or_slots="1"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Gastroenterology" number_or_slots="2"/>
+    </day>
+    <day name="2017-05-01">
+      <specialism_assignment name="Urological_Surgery" number_or_slots="4"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="1"/>
+      <specialism_assignment name="Orthopaedics" number_or_slots="3"/>
+      <specialism_assignment name="Gastroenterology" number_or_slots="1"/>
+    </day>
+    <day name="2017-05-02">
+      <specialism_assignment name="General_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Urological_Surgery" number_or_slots="2"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Orthopaedics" number_or_slots="1"/>
+    </day>
+    <day name="2017-05-03">
+      <specialism_assignment name="General_Surgery" number_or_slots="2"/>
+      <specialism_assignment name="Urological_Surgery" number_or_slots="1"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="4"/>
+      <specialism_assignment name="Orthopaedics" number_or_slots="2"/>
+    </day>
+    <day name="2017-05-04">
+      <specialism_assignment name="General_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="2"/>
+      <specialism_assignment name="Orthopaedics" number_or_slots="2"/>
+      <specialism_assignment name="Gastroenterology" number_or_slots="2"/>
+    </day>
+    <day name="2017-05-05">
+      <specialism_assignment name="General_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Urological_Surgery" number_or_slots="1"/>
+      <specialism_assignment name="Vascular_Surgery" number_or_slots="3"/>
+      <specialism_assignment name="Gastroenterology" number_or_slots="2"/>
+    </day>
+  </or_slots>
+  <patients>
+    <patient name="Pat_0" age="28" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-23" admission="2017-04-24" discharge="2017-04-27" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_1" age="23" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-23" admission="2017-04-28" surgery_day="2017-04-28" discharge="2017-05-01" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_2" age="89" gender="Male" treatment="Breast_Surgery_Treatment" registration="2017-04-23" admission="2017-04-27" surgery_day="2017-04-28" discharge="2017-05-03" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_3" age="23" gender="Male" treatment="Respiratory_Failure_Treatment" registration="2017-04-23" admission="2017-04-27" discharge="2017-04-29" variability="0">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_4" age="84" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-23" admission="2017-04-28" discharge="2017-05-01" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_5" age="42" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-23" admission="2017-05-03" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_6" age="24" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-23" admission="2017-04-26" discharge="2017-05-01" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_7" age="54" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-23" admission="2017-04-24" surgery_day="2017-04-24" discharge="2017-04-26" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_8" age="36" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-23" admission="2017-05-03" discharge="2017-05-06" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_9" age="85" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-23" admission="2017-04-23" discharge="2017-04-28" variability="0" max_admission="2017-04-23" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_10" age="8" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-23" admission="2017-04-25" surgery_day="2017-04-26" discharge="2017-04-27" variability="0" max_admission="2017-04-25" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_11" age="62" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-23" admission="2017-04-25" surgery_day="2017-04-25" discharge="2017-04-27" variability="0" max_admission="2017-04-25">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_12" age="89" gender="Male" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-23" admission="2017-04-27" discharge="2017-04-28" variability="1" preferred_capacity="4">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_13" age="89" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-23" admission="2017-04-27" surgery_day="2017-04-28" discharge="2017-04-30" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_14" age="58" gender="Male" treatment="Critical_Care_Treatment" registration="2017-04-23" admission="2017-04-26" discharge="2017-04-29" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_15" age="61" gender="Male" treatment="Breast_Surgery_Treatment" registration="2017-04-23" admission="2017-04-28" surgery_day="2017-04-28" discharge="2017-05-04" variability="0" preferred_capacity="4">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_16" age="2" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-04-23" admission="2017-04-25" discharge="2017-04-28" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_17" age="39" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-23" admission="2017-04-26" discharge="2017-04-29" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_18" age="39" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-23" admission="2017-04-23" discharge="2017-04-28" variability="0" max_admission="2017-04-23" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_19" age="50" gender="Male" treatment="Abdominal_Surgery_Treatment" registration="2017-04-23" admission="2017-04-26" surgery_day="2017-04-26" discharge="2017-04-30" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_20" age="38" gender="Female" treatment="Respiratory_Failure_Treatment" registration="2017-04-23" admission="2017-04-26" discharge="2017-04-28" variability="0">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_21" age="73" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-23" admission="2017-05-02" discharge="2017-05-05" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_22" age="17" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-04-23" admission="2017-04-25" discharge="2017-04-26" variability="1" preferred_capacity="1">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_23" age="29" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-04-23" admission="2017-05-01" discharge="2017-05-06" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_24" age="16" gender="Female" treatment="Abdominal_Surgery_Treatment" registration="2017-04-23" admission="2017-04-26" surgery_day="2017-04-27" discharge="2017-04-30" variability="1" max_admission="2017-04-30" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_25" age="55" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-04-23" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="1" max_admission="2017-05-05" preferred_capacity="2">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_26" age="26" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-23" admission="2017-04-27" discharge="2017-05-02" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_27" age="9" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-23" admission="2017-04-26" discharge="2017-04-29" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_28" age="57" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-24" admission="2017-04-28" discharge="2017-05-03" variability="0" max_admission="2017-04-29">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_29" age="42" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-24" admission="2017-04-26" surgery_day="2017-04-26" discharge="2017-04-29" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_30" age="17" gender="Male" treatment="Gastroenterology_Surgery_Treatment" registration="2017-04-24" admission="2017-04-27" surgery_day="2017-04-27" discharge="2017-04-30" variability="1" max_admission="2017-05-01" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_31" age="51" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-04-24" admission="2017-04-27" surgery_day="2017-04-27" discharge="2017-04-30" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_32" age="66" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-04-24" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_33" age="57" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-24" admission="2017-04-25" discharge="2017-04-28" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_34" age="85" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-04-24" admission="2017-04-27" discharge="2017-04-28" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_35" age="34" gender="Female" treatment="Cardiac_Insufficiency_Treatment" registration="2017-04-24" admission="2017-05-04" discharge="2017-05-06" variability="0" preferred_capacity="4">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_36" age="44" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-04-24" admission="2017-04-24" surgery_day="2017-04-25" discharge="2017-04-30" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_37" age="83" gender="Male" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-24" admission="2017-04-26" discharge="2017-04-27" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_38" age="56" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-04-24" admission="2017-04-27" discharge="2017-04-29" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_39" age="2" gender="Female" treatment="Respiratory_Failure_Treatment" registration="2017-04-24" admission="2017-05-01" discharge="2017-05-03" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_40" age="89" gender="Male" treatment="Respiratory_Failure_Treatment" registration="2017-04-24" admission="2017-04-25" discharge="2017-04-27" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_41" age="9" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-24" admission="2017-04-27" surgery_day="2017-04-27" discharge="2017-04-30" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_42" age="17" gender="Male" treatment="Abdominal_Surgery_Treatment" registration="2017-04-24" admission="2017-05-01" surgery_day="2017-05-02" discharge="2017-05-05" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_43" age="5" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-24" admission="2017-04-26" discharge="2017-04-29" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_44" age="56" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-04-24" admission="2017-05-01" surgery_day="2017-05-02" discharge="2017-05-04" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_45" age="35" gender="Female" treatment="Abdominal_Surgery_Treatment" registration="2017-04-25" admission="2017-04-26" surgery_day="2017-04-26" discharge="2017-04-30" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_46" age="56" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-04-25" admission="2017-04-26" discharge="2017-04-29" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_47" age="22" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-25" admission="2017-04-27" surgery_day="2017-04-28" discharge="2017-04-30" variability="0">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_48" age="9" gender="Female" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-25" admission="2017-05-02" discharge="2017-05-03" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_49" age="40" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-25" admission="2017-04-28" surgery_day="2017-04-28" discharge="2017-05-01" variability="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_50" age="12" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-04-25" admission="2017-04-28" discharge="2017-05-01" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_51" age="27" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-25" admission="2017-04-26" discharge="2017-04-29" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_52" age="47" gender="Male" treatment="Generic_Emergency_Treatment" registration="2017-04-25" admission="2017-04-28" discharge="2017-04-30" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_53" age="74" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-04-25" admission="2017-04-26" discharge="2017-04-29" variability="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_54" age="39" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-25" admission="2017-04-26" discharge="2017-04-29" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_55" age="72" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-25" admission="2017-04-25" discharge="2017-04-28" variability="0" max_admission="2017-04-25" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_56" age="16" gender="Female" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-25" admission="2017-05-01" discharge="2017-05-02" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_57" age="17" gender="Male" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-25" admission="2017-05-02" surgery_day="2017-05-02" discharge="2017-05-04" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_58" age="40" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-25" admission="2017-04-25" discharge="2017-04-30" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_59" age="10" gender="Male" treatment="Respiratory_Failure_Treatment" registration="2017-04-25" admission="2017-04-26" discharge="2017-04-28" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_60" age="70" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-04-25" admission="2017-04-26" discharge="2017-05-01" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_61" age="36" gender="Male" treatment="Abdominal_Surgery_Treatment" registration="2017-04-25" admission="2017-04-28" surgery_day="2017-04-28" discharge="2017-05-02" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_62" age="27" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-04-25" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_63" age="56" gender="Male" treatment="Critical_Care_Treatment" registration="2017-04-25" admission="2017-05-04" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_64" age="16" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-25" admission="2017-04-25" discharge="2017-04-28" variability="0" max_admission="2017-04-25" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_65" age="67" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-25" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_66" age="7" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-04-25" admission="2017-05-01" discharge="2017-05-06" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_67" age="74" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-04-26" admission="2017-05-03" discharge="2017-05-06" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_68" age="38" gender="Male" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-26" admission="2017-04-28" discharge="2017-04-29" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_69" age="24" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-26" admission="2017-04-28" discharge="2017-05-01" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_70" age="82" gender="Male" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-26" admission="2017-05-01" surgery_day="2017-05-01" discharge="2017-05-03" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_71" age="77" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-26" admission="2017-05-02" surgery_day="2017-05-02" discharge="2017-05-05" variability="0" max_admission="2017-05-02" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_72" age="76" gender="Male" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-26" admission="2017-04-27" discharge="2017-04-28" variability="1" max_admission="2017-05-01">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_73" age="17" gender="Female" treatment="Gastroenterology_Surgery_Treatment" registration="2017-04-26" admission="2017-04-26" surgery_day="2017-04-27" discharge="2017-04-29" variability="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_74" age="33" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-26" admission="2017-05-02" discharge="2017-05-07" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_75" age="56" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-26" admission="2017-05-01" surgery_day="2017-05-01" discharge="2017-05-03" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_76" age="40" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-04-26" admission="2017-04-28" surgery_day="2017-04-28" discharge="2017-05-04" variability="1" max_admission="2017-04-29">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_77" age="26" gender="Female" treatment="Generic_Emergency_Treatment" registration="2017-04-26" admission="2017-04-26" discharge="2017-04-28" variability="0" max_admission="2017-04-26" preferred_capacity="2">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_78" age="33" gender="Male" treatment="Critical_Care_Treatment" registration="2017-04-26" admission="2017-04-26" discharge="2017-04-29" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_79" age="75" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-26" admission="2017-05-02" discharge="2017-05-05" variability="0" preferred_capacity="4">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_80" age="90" gender="Male" treatment="Obesity_Surgery_Treatment" registration="2017-04-26" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_81" age="19" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-26" admission="2017-05-02" surgery_day="2017-05-03" discharge="2017-05-05" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_82" age="32" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-04-26" admission="2017-05-01" discharge="2017-05-06" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_83" age="26" gender="Male" treatment="Gastroenterology_Surgery_Treatment" registration="2017-04-26" admission="2017-04-27" surgery_day="2017-04-27" discharge="2017-04-30" variability="0" max_admission="2017-04-27" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_84" age="59" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-26" admission="2017-05-03" discharge="2017-05-06" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_85" age="6" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-04-26" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_86" age="44" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-26" admission="2017-05-02" discharge="2017-05-05" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_87" age="36" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-26" admission="2017-05-02" discharge="2017-05-05" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_88" age="63" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-26" admission="2017-05-03" discharge="2017-05-06" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_89" age="38" gender="Male" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-26" admission="2017-05-03" surgery_day="2017-05-03" discharge="2017-05-05" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_90" age="29" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-26" admission="2017-04-26" discharge="2017-04-29" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_91" age="13" gender="Male" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-26" admission="2017-05-03" surgery_day="2017-05-03" discharge="2017-05-05" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_92" age="81" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-26" admission="2017-05-01" discharge="2017-05-04" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_93" age="27" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-26" admission="2017-04-26" discharge="2017-04-29" variability="0" max_admission="2017-04-26" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_94" age="31" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-27" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-06" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_95" age="2" gender="Male" treatment="Obesity_Surgery_Treatment" registration="2017-04-27" admission="2017-04-27" surgery_day="2017-04-28" discharge="2017-05-02" variability="0" max_admission="2017-04-27" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_96" age="46" gender="Female" treatment="Respiratory_Failure_Treatment" registration="2017-04-27" admission="2017-05-01" discharge="2017-05-03" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_97" age="58" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-04-27" admission="2017-05-02" discharge="2017-05-04" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_98" age="8" gender="Female" treatment="Breast_Surgery_Treatment" registration="2017-04-27" admission="2017-05-03" surgery_day="2017-05-03" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_99" age="63" gender="Male" treatment="Obesity_Surgery_Treatment" registration="2017-04-27" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_100" age="9" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-27" admission="2017-05-02" surgery_day="2017-05-02" discharge="2017-05-04" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_101" age="81" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-27" admission="2017-05-02" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_102" age="57" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-04-27" admission="2017-04-27" discharge="2017-04-28" variability="0" max_admission="2017-04-27" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_103" age="50" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-04-27" admission="2017-05-03" surgery_day="2017-05-03" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_104" age="63" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-04-27" admission="2017-05-01" discharge="2017-05-04" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_105" age="64" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-27" admission="2017-05-02" discharge="2017-05-05" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_106" age="9" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-27" admission="2017-05-05" discharge="2017-05-07" variability="1" max_admission="2017-05-05">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_107" age="71" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-27" admission="2017-04-27" discharge="2017-05-02" variability="1" max_admission="2017-04-27" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_108" age="40" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-27" admission="2017-05-04" discharge="2017-05-07" variability="0" max_admission="2017-05-04" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_109" age="59" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-04-27" admission="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_110" age="31" gender="Male" treatment="Critical_Care_Treatment" registration="2017-04-27" admission="2017-04-27" discharge="2017-04-30" variability="1" max_admission="2017-04-27" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_111" age="71" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-04-27" admission="2017-04-27" discharge="2017-04-28" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_112" age="75" gender="Male" treatment="Critical_Care_Treatment" registration="2017-04-28" admission="2017-04-28" discharge="2017-05-01" variability="0" max_admission="2017-04-28" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_113" age="28" gender="Female" treatment="Generic_Emergency_Treatment" registration="2017-04-28" admission="2017-05-01" discharge="2017-05-03" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_114" age="49" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-04-28" admission="2017-04-28" discharge="2017-04-30" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_115" age="79" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-28" admission="2017-05-02" discharge="2017-05-05" variability="0" max_admission="2017-05-02" preferred_capacity="2">
+      <room_properties>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_116" age="43" gender="Male" treatment="Breast_Surgery_Treatment" registration="2017-04-28" admission="2017-04-28" surgery_day="2017-04-28" discharge="2017-05-04" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_117" age="3" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-28" admission="2017-04-28" surgery_day="2017-04-28" discharge="2017-05-01" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_118" age="9" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-04-28" admission="2017-05-03" discharge="2017-05-06" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_119" age="51" gender="Male" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-28" admission="2017-05-02" surgery_day="2017-05-03" discharge="2017-05-04" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_120" age="54" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-28" admission="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_121" age="5" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-28" admission="2017-05-02" discharge="2017-05-05" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_122" age="63" gender="Female" treatment="Respiratory_Failure_Treatment" registration="2017-04-28" admission="2017-05-04" discharge="2017-05-06" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_123" age="13" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-04-28" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_124" age="22" gender="Female" treatment="Gastroenterology_Surgery_Treatment" registration="2017-04-28" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-06" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_125" age="37" gender="Male" treatment="Breast_Surgery_Treatment" registration="2017-04-28" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-07" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_126" age="22" gender="Female" treatment="Breast_Surgery_Treatment" registration="2017-04-28" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-07" variability="0">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_127" age="11" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-28" admission="2017-05-01" discharge="2017-05-06" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_128" age="79" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-28" admission="2017-04-28" discharge="2017-05-03" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_129" age="41" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-28" admission="2017-05-03" discharge="2017-05-06" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_130" age="4" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-28" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-05" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_131" age="38" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-04-28" admission="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_132" age="52" gender="Female" treatment="Obesity_Surgery_Treatment" registration="2017-04-28" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_133" age="14" gender="Male" treatment="Obesity_Surgery_Treatment" registration="2017-04-28" admission="2017-05-03" surgery_day="2017-05-03" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_134" age="72" gender="Female" treatment="Generic_Emergency_Treatment" registration="2017-04-28" admission="2017-04-28" discharge="2017-04-30" variability="1" max_admission="2017-04-28" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_135" age="25" gender="Female" treatment="Cardiac_Insufficiency_Treatment" registration="2017-04-29" admission="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_136" age="73" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-04-29" admission="2017-05-01" discharge="2017-05-02" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_137" age="58" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-29" admission="2017-05-03" discharge="2017-05-06" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_138" age="9" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-04-29" admission="2017-05-04" discharge="2017-05-05" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_139" age="1" gender="Male" treatment="Breast_Surgery_Treatment" registration="2017-04-29" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-07" variability="0" max_admission="2017-05-03" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_140" age="53" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-04-29" admission="2017-05-02" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_141" age="39" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-29" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_142" age="79" gender="Male" treatment="Critical_Care_Treatment" registration="2017-04-29" admission="2017-05-01" discharge="2017-05-04" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_143" age="24" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-29" admission="2017-05-05" discharge="2017-05-07" variability="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_144" age="50" gender="Female" treatment="Gastroenterology_Surgery_Treatment" registration="2017-04-29" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-06" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_145" age="27" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-29" admission="2017-05-02" discharge="2017-05-05" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_146" age="13" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-29" admission="2017-05-02" discharge="2017-05-05" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_147" age="58" gender="Female" treatment="Orthopaedics_Hospitalization" registration="2017-04-29" admission="2017-05-05" discharge="2017-05-06" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_148" age="10" gender="Male" treatment="Critical_Care_Treatment" registration="2017-04-29" admission="2017-05-04" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_149" age="30" gender="Male" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-29" admission="2017-05-04" discharge="2017-05-05" variability="1" max_admission="2017-05-05" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_150" age="36" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-04-29" admission="2017-05-03" discharge="2017-05-04" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_151" age="53" gender="Male" treatment="Breast_Surgery_Treatment" registration="2017-04-29" admission="2017-05-01" surgery_day="2017-05-02" discharge="2017-05-07" variability="0" max_admission="2017-05-01">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_152" age="17" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-04-29" admission="2017-04-29" discharge="2017-04-30" variability="0" max_admission="2017-04-29" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_153" age="3" gender="Male" treatment="Gastroenterology_Surgery_Treatment" registration="2017-04-30" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_154" age="65" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-04-30" admission="2017-05-05" discharge="2017-05-07" variability="0" max_admission="2017-05-05" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_155" age="10" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-04-30" admission="2017-05-03" discharge="2017-05-06" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_156" age="35" gender="Male" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-30" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-06" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_157" age="81" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-04-30" admission="2017-05-04" discharge="2017-05-06" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_158" age="43" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-30" admission="2017-05-02" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_159" age="85" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-30" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_160" age="3" gender="Female" treatment="Respiratory_Failure_Treatment" registration="2017-04-30" admission="2017-05-03" discharge="2017-05-05" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_161" age="64" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-04-30" admission="2017-05-04" discharge="2017-05-05" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_162" age="87" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-04-30" admission="2017-05-01" surgery_day="2017-05-02" discharge="2017-05-04" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_163" age="71" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-04-30" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_164" age="6" gender="Female" treatment="Orthopaedics_Hospitalization" registration="2017-04-30" admission="2017-05-02" discharge="2017-05-03" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_165" age="82" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-04-30" admission="2017-04-30" discharge="2017-05-05" variability="0" max_admission="2017-04-30" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_166" age="79" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-04-30" admission="2017-05-01" discharge="2017-05-06" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_167" age="47" gender="Female" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-30" admission="2017-05-02" discharge="2017-05-03" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_168" age="3" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-30" admission="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_169" age="44" gender="Male" treatment="Orthopaedics_Surgery_Treatment" registration="2017-04-30" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-06" variability="0" max_admission="2017-05-04" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_170" age="56" gender="Male" treatment="Breast_Surgery_Treatment" registration="2017-04-30" admission="2017-05-02" surgery_day="2017-05-03" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_171" age="24" gender="Female" treatment="Critical_Care_Treatment" registration="2017-04-30" admission="2017-04-30" discharge="2017-05-03" variability="1" max_admission="2017-04-30">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_172" age="48" gender="Female" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-30" admission="2017-05-02" discharge="2017-05-03" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_173" age="85" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-04-30" admission="2017-05-02" surgery_day="2017-05-03" discharge="2017-05-05" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_174" age="87" gender="Male" treatment="Critical_Care_Treatment" registration="2017-04-30" admission="2017-04-30" discharge="2017-05-03" variability="0" max_admission="2017-04-30" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_175" age="87" gender="Female" treatment="Gastroenteric_Diseases_Treatment" registration="2017-04-30" admission="2017-05-04" discharge="2017-05-05" variability="0" preferred_capacity="1">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_176" age="77" gender="Male" treatment="Critical_Care_Treatment" registration="2017-05-01" admission="2017-05-03" discharge="2017-05-06" variability="1" preferred_capacity="2">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_177" age="14" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-01" admission="2017-05-02" discharge="2017-05-05" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_178" age="52" gender="Female" treatment="Obesity_Surgery_Treatment" registration="2017-05-01" admission="2017-05-02" surgery_day="2017-05-02" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_179" age="4" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-01" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_180" age="33" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-05-01" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_181" age="81" gender="Male" treatment="Gastroenterology_Surgery_Treatment" registration="2017-05-01" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_182" age="37" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-01" admission="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_183" age="58" gender="Female" treatment="Generic_Emergency_Treatment" registration="2017-05-01" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_184" age="42" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-05-01" admission="2017-05-02" discharge="2017-05-04" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_185" age="27" gender="Male" treatment="Abdominal_Surgery_Treatment" registration="2017-05-01" admission="2017-05-02" surgery_day="2017-05-02" discharge="2017-05-06" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_186" age="37" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-05-01" admission="2017-05-05" discharge="2017-05-06" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_187" age="51" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-05-01" admission="2017-05-01" surgery_day="2017-05-01" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_188" age="28" gender="Female" treatment="Cardiac_Insufficiency_Treatment" registration="2017-05-01" admission="2017-05-03" discharge="2017-05-05" variability="0" max_admission="2017-05-03">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_189" age="31" gender="Male" treatment="Critical_Care_Treatment" registration="2017-05-01" admission="2017-05-02" discharge="2017-05-05" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_190" age="47" gender="Male" treatment="Critical_Care_Treatment" registration="2017-05-01" admission="2017-05-04" discharge="2017-05-07" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_191" age="14" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-05-01" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_192" age="50" gender="Female" treatment="Obesity_Surgery_Treatment" registration="2017-05-01" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_193" age="68" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-05-01" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_194" age="85" gender="Male" treatment="Obesity_Surgery_Treatment" registration="2017-05-01" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_195" age="23" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-02" admission="2017-05-03" discharge="2017-05-06" variability="1">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_196" age="51" gender="Male" treatment="Critical_Care_Treatment" registration="2017-05-02" admission="2017-05-03" discharge="2017-05-06" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_197" age="32" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-05-02" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_198" age="63" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-02" admission="2017-05-04" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_199" age="85" gender="Male" treatment="Gastroenteric_Diseases_Treatment" registration="2017-05-02" admission="2017-05-02" discharge="2017-05-03" variability="0" max_admission="2017-05-02" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_200" age="26" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-05-02" admission="2017-05-02" surgery_day="2017-05-02" discharge="2017-05-05" variability="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_201" age="21" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-02" admission="2017-05-04" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_202" age="33" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-05-02" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_203" age="3" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-02" admission="2017-05-03" discharge="2017-05-06" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_204" age="88" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-02" admission="2017-05-03" discharge="2017-05-06" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_205" age="31" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-05-02" admission="2017-05-03" discharge="2017-05-07" variability="1" max_admission="2017-05-03" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_206" age="33" gender="Male" treatment="Critical_Care_Treatment" registration="2017-05-02" admission="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_207" age="79" gender="Male" treatment="Obesity_Surgery_Treatment" registration="2017-05-02" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_208" age="69" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-05-02" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_209" age="80" gender="Female" treatment="Obesity_Surgery_Treatment" registration="2017-05-02" admission="2017-05-03" surgery_day="2017-05-03" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_210" age="42" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-02" admission="2017-05-02" discharge="2017-05-05" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_211" age="43" gender="Male" treatment="Gastroenteric_Diseases_Treatment" registration="2017-05-02" admission="2017-05-02" discharge="2017-05-03" variability="0" max_admission="2017-05-02" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_212" age="23" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-05-02" admission="2017-05-05" discharge="2017-05-07" variability="0" max_admission="2017-05-05" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_213" age="16" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-05-02" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-06" variability="0">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_214" age="32" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-05-02" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-06" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_215" age="60" gender="Male" treatment="Generic_Emergency_Treatment" registration="2017-05-02" admission="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_216" age="36" gender="Male" treatment="Orthopaedics_Surgery_Treatment" registration="2017-05-02" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-06" variability="1" max_admission="2017-05-04">
+      <room_properties>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_217" age="53" gender="Male" treatment="Generic_Emergency_Treatment" registration="2017-05-02" admission="2017-05-04" discharge="2017-05-06" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_218" age="32" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-02" admission="2017-05-03" discharge="2017-05-06" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_219" age="5" gender="Male" treatment="Breast_Surgery_Treatment" registration="2017-05-03" admission="2017-05-03" surgery_day="2017-05-03" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_220" age="36" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-05-03" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_221" age="9" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-05-03" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_222" age="7" gender="Male" treatment="Critical_Care_Treatment" registration="2017-05-03" admission="2017-05-03" discharge="2017-05-06" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_223" age="17" gender="Female" treatment="Orthopaedics_Hospitalization" registration="2017-05-03" admission="2017-05-03" discharge="2017-05-04" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_224" age="78" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-05-03" admission="2017-05-04" discharge="2017-05-07" variability="0" max_admission="2017-05-04">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_225" age="43" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-05-03" admission="2017-05-04" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_226" age="71" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-03" admission="2017-05-04" discharge="2017-05-07" variability="1" max_admission="2017-05-04" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_227" age="19" gender="Female" treatment="Respiratory_Failure_Treatment" registration="2017-05-03" admission="2017-05-05" discharge="2017-05-07" variability="0" max_admission="2017-05-05">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_228" age="76" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-05-03" admission="2017-05-04" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_229" age="48" gender="Female" treatment="Gastroenterology_Surgery_Treatment" registration="2017-05-03" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_230" age="86" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-05-03" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_231" age="69" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-03" admission="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_232" age="12" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-05-03" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_233" age="60" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-05-03" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_234" age="43" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-03" admission="2017-05-03" discharge="2017-05-06" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_235" age="87" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-05-03" admission="2017-05-03" surgery_day="2017-05-03" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_236" age="83" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-03" admission="2017-05-03" discharge="2017-05-06" variability="1" max_admission="2017-05-03" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_237" age="76" gender="Male" treatment="Critical_Care_Treatment" registration="2017-05-03" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_238" age="5" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-05-03" admission="2017-05-03" surgery_day="2017-05-04" discharge="2017-05-05" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_239" age="6" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-05-03" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_240" age="35" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-05-03" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_241" age="11" gender="Female" treatment="Orthopaedics_Hospitalization" registration="2017-05-03" admission="2017-05-05" discharge="2017-05-06" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_242" age="7" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-05-03" admission="2017-05-03" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_243" age="87" gender="Male" treatment="Gastroenteric_Diseases_Treatment" registration="2017-05-03" admission="2017-05-03" discharge="2017-05-04" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_244" age="35" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-05-04" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_245" age="11" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-05-04" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" max_admission="2017-05-05" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_246" age="75" gender="Male" treatment="Respiratory_Failure_Treatment" registration="2017-05-04" admission="2017-05-04" discharge="2017-05-06" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_247" age="7" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-05-04" admission="2017-05-05" discharge="2017-05-07" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_248" age="66" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-05-04" admission="2017-05-04" discharge="2017-05-05" variability="0">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_249" age="20" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-04" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_250" age="88" gender="Female" treatment="Breast_Surgery_Treatment" registration="2017-05-04" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="1" max_admission="2017-05-04" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_251" age="60" gender="Male" treatment="Gastroenterology_Surgery_Treatment" registration="2017-05-04" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_252" age="39" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-05-04" admission="2017-05-04" discharge="2017-05-07" variability="0" max_admission="2017-05-04">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_253" age="28" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-04" admission="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_254" age="34" gender="Female" treatment="Orthopaedics_Surgery_Treatment" registration="2017-05-04" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-06" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_255" age="77" gender="Male" treatment="Orthopaedics_Hospitalization" registration="2017-05-04" admission="2017-05-05" discharge="2017-05-06" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_256" age="90" gender="Female" treatment="Gastroenteric_Diseases_Treatment" registration="2017-05-04" admission="2017-05-05" discharge="2017-05-06" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_257" age="28" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-05-04" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_258" age="59" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-04" admission="2017-05-04" discharge="2017-05-07" variability="0" max_admission="2017-05-04">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_259" age="41" gender="Male" treatment="Obesity_Surgery_Treatment" registration="2017-05-04" admission="2017-05-04" surgery_day="2017-05-04" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_260" age="61" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-05-04" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_261" age="13" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-04" admission="2017-05-04" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_262" age="90" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-05-04" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_263" age="4" gender="Male" treatment="Gastroenterology_Surgery_Treatment" registration="2017-05-04" admission="2017-05-04" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_264" age="50" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-05-04" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_265" age="30" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_266" age="56" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-05-05" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" max_admission="2017-05-05">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_267" age="67" gender="Female" treatment="Gastroenterology_Surgery_Treatment" registration="2017-05-05" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_268" age="19" gender="Female" treatment="Breast_Surgery_Treatment" registration="2017-05-05" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" max_admission="2017-05-05">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_269" age="9" gender="Male" treatment="Respiratory_Failure_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_270" age="66" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_271" age="60" gender="Female" treatment="Gastroenterology_Surgery_Treatment" registration="2017-05-05" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" max_admission="2017-05-05" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_272" age="74" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties/>
+    </patient>
+    <patient name="Pat_273" age="84" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_274" age="71" gender="Female" treatment="Breast_Surgery_Treatment" registration="2017-05-05" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_275" age="11" gender="Female" treatment="Cardiac_Insufficiency_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_276" age="15" gender="Female" treatment="Generic_Emergency_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_277" age="76" gender="Female" treatment="Orthopaedics_Hospitalization" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-06" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_278" age="14" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_279" age="62" gender="Female" treatment="Vascular_Surgery_Treatment" registration="2017-05-05" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_280" age="19" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_281" age="47" gender="Female" treatment="Orthopaedics_Hospitalization" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-06" variability="0" max_admission="2017-05-05" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_282" age="81" gender="Male" treatment="Vascular_Surgery_Treatment" registration="2017-05-05" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_283" age="23" gender="Male" treatment="Urological_Surgery_Treatment" registration="2017-05-05" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_284" age="63" gender="Female" treatment="Obesity_Surgery_Treatment" registration="2017-05-05" admission="2017-05-05" surgery_day="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_285" age="76" gender="Female" treatment="Generic_Emergency_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_286" age="83" gender="Male" treatment="Critical_Care_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_287" age="55" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="needed"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_288" age="2" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_289" age="32" gender="Female" treatment="Diabetology_Disease_Treatment" registration="2017-05-05" admission="2017-05-05" discharge="2017-05-07" variability="1" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_290" age="44" gender="Male" treatment="Respiratory_Failure_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" max_admission="2017-05-06" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_291" age="15" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="1" max_admission="2017-05-06" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_292" age="60" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="1" max_admission="2017-05-06" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_293" age="71" gender="Male" treatment="Respiratory_Failure_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_294" age="63" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_295" age="90" gender="Female" treatment="Respiratory_Failure_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="1" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_296" age="34" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_297" age="68" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_298" age="83" gender="Male" treatment="Critical_Care_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="1">
+      <room_properties>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_299" age="49" gender="Male" treatment="Diabetology_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_300" age="4" gender="Male" treatment="Respiratory_Failure_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="1">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_301" age="81" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_302" age="90" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" max_admission="2017-05-06">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_303" age="27" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_304" age="50" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_305" age="25" gender="Female" treatment="Critical_Care_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="1" max_admission="2017-05-06" preferred_capacity="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="oxygen" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_306" age="39" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_307" age="49" gender="Male" treatment="Cardiac_Insufficiency_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" preferred_capacity="2">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_308" age="13" gender="Female" treatment="Endocrine_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="1">
+      <room_properties>
+        <room_property name="infusion_pump" type="needed"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="oxygen" type="preferred"/>
+        <room_property name="telemetry" type="preferred"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+    <patient name="Pat_309" age="44" gender="Male" treatment="Endocrine_Disease_Treatment" registration="2017-05-06" admission="2017-05-06" discharge="2017-05-07" variability="0" preferred_capacity="4">
+      <room_properties>
+        <room_property name="infusion_pump" type="preferred"/>
+        <room_property name="nitrogen" type="preferred"/>
+        <room_property name="telemetry" type="needed"/>
+        <room_property name="television" type="preferred"/>
+      </room_properties>
+    </patient>
+  </patients>
+</OrPasu_instance>

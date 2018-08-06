@@ -1,0 +1,6 @@
+gurobi.GRBException: The model is infeasible!
+	at util.Gurobi.optimize(Gurobi.java:157)
+	at pas.algoritm.mp.MipTr.withInitialSol(MipTr.java:304)
+	at pas.algoritm.mp.cg.MasterPatient.checkSolution(MasterPatient.java:285)
+	at pas.algoritm.mp.cg.MasterPatient.solve(MasterPatient.java:228)
+	at pas.algoritm.mp.cg.MasterPatient.main(MasterPatient.java:302)

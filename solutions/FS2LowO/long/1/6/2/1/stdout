@@ -1,0 +1,1579 @@
+Day	0	Optimize a model with 16262 rows, 201266 columns and 2944049 nonzeros
+Variable types: 1344 continuous, 199922 integer (195722 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 8e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 2.30641e+06
+Presolve removed 2247 rows and 29893 columns (presolve time = 5s) ...
+Presolve removed 2696 rows and 32315 columns
+Presolve time: 9.26s
+Presolved: 13566 rows, 168951 columns, 2406068 nonzeros
+Variable types: 0 continuous, 168951 integer (165327 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.3392650e+06   8.478744e+04   0.000000e+00     10s
+    1267    1.7755810e+06   0.000000e+00   0.000000e+00     10s
+
+Root relaxation: objective 1.775581e+06, 1267 iterations, 0.36 seconds
+Total elapsed time = 10.11s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1775581.00    0  202 2306414.00 1775581.00  23.0%     -   11s
+H    0     0                    1782730.0000 1775581.00  0.40%     -   12s
+H    0     0                    1778620.0000 1775581.00  0.17%     -   12s
+H    0     0                    1776740.0000 1775581.00  0.07%     -   13s
+     0     0 1776670.00    0   58 1776740.00 1776670.00  0.00%     -   14s
+
+Cutting planes:
+  Cover: 125
+  Clique: 224
+  MIR: 169
+
+Explored 0 nodes (3004 simplex iterations) in 14.72 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 4: 1.77674e+06 1.77862e+06 1.78273e+06 2.30641e+06 
+Pool objective bound 1.77667e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.776740000000e+06, best bound 1.776670000000e+06, gap 0.0039%
+	MIPObjVal:	1776740.0	runtime:	14.724957942962646	patientsNumber:	302	room Occupancy:	0.17901234567901234	OR Occupancy:	0.20962835603756116
+roomCost:	26730.0	genderPolicy:	600.0	transferCost:	700.0	delayCost:	0.0	overCrowdRisk:	0.0	overtime:	0.0	idleRoom:	319160.0	idleOR:	1429550.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	1	Optimize a model with 16004 rows, 205990 columns and 2715039 nonzeros
+Variable types: 1320 continuous, 204670 integer (200545 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 7e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 2.18287e+06
+Presolve removed 2694 rows and 29039 columns (presolve time = 5s) ...
+Presolve removed 2815 rows and 29151 columns
+Presolve time: 7.58s
+Presolved: 13189 rows, 176839 columns, 2241097 nonzeros
+Variable types: 0 continuous, 176839 integer (173382 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.0661050e+06   9.946608e+04   0.000000e+00      8s
+    1347    1.6878110e+06   0.000000e+00   0.000000e+00      8s
+
+Root relaxation: objective 1.687811e+06, 1347 iterations, 0.33 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1687811.00    0  140 2182870.00 1687811.00  22.7%     -   10s
+H    0     0                    1689340.0000 1687811.00  0.09%     -   10s
+H    0     0                    1688670.0000 1687811.00  0.05%     -   11s
+     0     0 1688619.33    0   54 1688670.00 1688619.33  0.00%     -   12s
+
+Cutting planes:
+  Cover: 85
+  Clique: 137
+  MIR: 114
+
+Explored 0 nodes (3018 simplex iterations) in 12.53 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 3: 1.68867e+06 1.68934e+06 2.18287e+06 
+Pool objective bound 1.68862e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.688670000000e+06, best bound 1.688620000000e+06, gap 0.0030%
+	MIPObjVal:	1688670.0	runtime:	12.541203022003174	patientsNumber:	329	room Occupancy:	0.15895061728395063	OR Occupancy:	0.0
+roomCost:	28510.0	genderPolicy:	550.0	transferCost:	0.0	delayCost:	0.0	overCrowdRisk:	0.0	overtime:	0.0	idleRoom:	303860.0	idleOR:	1355750.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	2	Optimize a model with 15758 rows, 240630 columns and 3211752 nonzeros
+Variable types: 1296 continuous, 239334 integer (235284 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 7e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 2.24356e+06
+Presolve removed 2214 rows and 31569 columns (presolve time = 5s) ...
+Presolve removed 2632 rows and 33474 columns
+Presolve time: 9.67s
+Presolved: 13126 rows, 207156 columns, 2673487 nonzeros
+Variable types: 0 continuous, 207156 integer (203691 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.5319250e+06   1.146756e+05   0.000000e+00     10s
+    1514    1.6651410e+06   0.000000e+00   0.000000e+00     10s
+
+Root relaxation: objective 1.665141e+06, 1514 iterations, 0.36 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1665141.00    0  198 2243555.00 1665141.00  25.8%     -   12s
+H    0     0                    1677876.0000 1665141.00  0.76%     -   13s
+H    0     0                    1670641.0000 1665141.00  0.33%     -   13s
+H    0     0                    1670091.0000 1665141.00  0.30%     -   14s
+H    0     0                    1665950.0000 1665141.00  0.05%     -   14s
+     0     0 1665829.83    0   34 1665950.00 1665829.83  0.01%     -   16s
+
+Cutting planes:
+  Cover: 116
+  Clique: 265
+  MIR: 172
+
+Explored 0 nodes (3534 simplex iterations) in 16.77 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 5: 1.66595e+06 1.67009e+06 1.67064e+06 ... 2.24356e+06
+Pool objective bound 1.66583e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.665950000000e+06, best bound 1.665830000000e+06, gap 0.0072%
+	MIPObjVal:	1665950.0	runtime:	16.782480001449585	patientsNumber:	368	room Occupancy:	0.15123456790123457	OR Occupancy:	0.0
+roomCost:	31140.0	genderPolicy:	500.0	transferCost:	300.0	delayCost:	0.0	overCrowdRisk:	0.0	overtime:	0.0	idleRoom:	286760.0	idleOR:	1347250.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	3	Optimize a model with 15514 rows, 276050 columns and 3656449 nonzeros
+Variable types: 1272 continuous, 274778 integer (270803 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 7e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 2.29831e+06
+Presolve removed 1754 rows and 35740 columns (presolve time = 6s) ...
+Presolve removed 2440 rows and 40719 columns (presolve time = 10s) ...
+Presolve removed 2443 rows and 40722 columns
+Presolve time: 10.97s
+Presolved: 13071 rows, 235328 columns, 3028353 nonzeros
+Variable types: 0 continuous, 235328 integer (231851 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -4.1133100e+06   1.323871e+05   0.000000e+00     12s
+    1658    1.6383810e+06   0.000000e+00   0.000000e+00     12s
+
+Root relaxation: objective 1.638381e+06, 1658 iterations, 0.39 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1638381.00    0  248 2298311.00 1638381.00  28.7%     -   14s
+H    0     0                    1647617.0000 1638381.00  0.56%     -   16s
+H    0     0                    1642318.0000 1638381.00  0.24%     -   17s
+H    0     0                    1639321.0000 1638381.00  0.06%     -   18s
+     0     0 1639119.33    0   74 1639321.00 1639119.33  0.01%     -   20s
+     0     0 1639119.33    0  194 1639321.00 1639119.33  0.01%     -   31s
+     0     0 1639119.33    0  115 1639321.00 1639119.33  0.01%     -   32s
+     0     0 1639161.00    0  135 1639321.00 1639161.00  0.01%     -   32s
+
+Cutting planes:
+  Gomory: 31
+  Cover: 124
+  Clique: 242
+  MIR: 146
+
+Explored 0 nodes (7467 simplex iterations) in 32.63 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 5: 1.63932e+06 1.64232e+06 1.64762e+06 ... 2.29831e+06
+Pool objective bound 1.63916e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.639321000000e+06, best bound 1.639161000000e+06, gap 0.0098%
+	MIPObjVal:	1639321.0	runtime:	32.634605884552	patientsNumber:	409	room Occupancy:	0.21141975308641975	OR Occupancy:	0.021822510249966936
+roomCost:	32380.0	genderPolicy:	550.0	transferCost:	100.0	delayCost:	0.0	overCrowdRisk:	1.0	overtime:	0.0	idleRoom:	271540.0	idleOR:	1334750.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	4	Optimize a model with 15249 rows, 266024 columns and 3338775 nonzeros
+Variable types: 1248 continuous, 264776 integer (260876 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 6e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 2.21373e+06
+Presolve removed 1771 rows and 36832 columns (presolve time = 5s) ...
+Presolve removed 2394 rows and 41101 columns (presolve time = 10s) ...
+Presolve removed 2394 rows and 41101 columns
+Presolve time: 10.26s
+Presolved: 12855 rows, 224923 columns, 2706766 nonzeros
+Variable types: 0 continuous, 224923 integer (221512 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.0522750e+06   1.381330e+05   0.000000e+00     11s
+    1981    1.5404553e+06   0.000000e+00   0.000000e+00     11s
+
+Root relaxation: objective 1.540455e+06, 1981 iterations, 0.38 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1540455.26    0  204 2213730.00 1540455.26  30.4%     -   13s
+H    0     0                    1555298.0000 1540455.26  0.95%     -   14s
+H    0     0                    1544739.0000 1540455.26  0.28%     -   14s
+H    0     0                    1541658.0000 1540455.26  0.08%     -   15s
+     0     0 1541225.42    0  125 1541658.00 1541225.42  0.03%     -   17s
+     0     0 1541225.42    0  216 1541658.00 1541225.42  0.03%     -   29s
+     0     0 1541231.09    0  250 1541658.00 1541231.09  0.03%     -   30s
+     0     0 1541485.67    0  122 1541658.00 1541485.67  0.01%     -   30s
+     0     0 1541562.81    0   95 1541658.00 1541562.81  0.01%     -   31s
+
+Cutting planes:
+  Gomory: 32
+  Cover: 215
+  Clique: 285
+  MIR: 205
+  GUB cover: 1
+
+Explored 0 nodes (8460 simplex iterations) in 31.53 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 5: 1.54166e+06 1.54474e+06 1.54474e+06 ... 2.21373e+06
+Pool objective bound 1.54156e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.541658000000e+06, best bound 1.541563000000e+06, gap 0.0062%
+	MIPObjVal:	1541658.0	runtime:	31.541714906692505	patientsNumber:	429	room Occupancy:	0.24537037037037038	OR Occupancy:	0.1745800819997355
+roomCost:	34570.0	genderPolicy:	400.0	transferCost:	0.0	delayCost:	315.0	overCrowdRisk:	3.0	overtime:	0.0	idleRoom:	256720.0	idleOR:	1249650.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	5	Optimize a model with 14972 rows, 252552 columns and 3298881 nonzeros
+Variable types: 1224 continuous, 251328 integer (247503 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 6e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 2.07703e+06
+Presolve removed 1929 rows and 38468 columns (presolve time = 5s) ...
+Presolve removed 2459 rows and 40540 columns
+Presolve time: 9.81s
+Presolved: 12513 rows, 212012 columns, 2653432 nonzeros
+Variable types: 0 continuous, 212012 integer (208711 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.0638550e+06   1.446400e+05   0.000000e+00     10s
+    1823    1.4521263e+06   0.000000e+00   0.000000e+00     10s
+
+Root relaxation: objective 1.452126e+06, 1823 iterations, 0.34 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1452126.26    0  192 2077032.00 1452126.26  30.1%     -   12s
+H    0     0                    1471219.0000 1452126.26  1.30%     -   13s
+H    0     0                    1459020.0000 1452126.26  0.47%     -   14s
+H    0     0                    1457118.0000 1452126.26  0.34%     -   14s
+H    0     0                    1453487.0000 1452126.26  0.09%     -   15s
+     0     0 1452994.59    0  136 1453487.00 1452994.59  0.03%     -   17s
+     0     0 1452994.59    0  209 1453487.00 1452994.59  0.03%     -   28s
+     0     0 1453016.59    0  191 1453487.00 1453016.59  0.03%     -   29s
+     0     0 1453316.67    0  171 1453487.00 1453316.67  0.01%     -   29s
+     0     0 1453409.00    0   47 1453487.00 1453409.00  0.01%     -   30s
+
+Cutting planes:
+  Gomory: 39
+  Cover: 186
+  Clique: 288
+  MIR: 235
+  GUB cover: 2
+
+Explored 0 nodes (8673 simplex iterations) in 30.42 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 5: 1.45349e+06 1.45712e+06 1.45902e+06 ... 2.07703e+06
+Pool objective bound 1.45341e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.453487000000e+06, best bound 1.453409000000e+06, gap 0.0054%
+	MIPObjVal:	1453487.0	runtime:	30.43042302131653	patientsNumber:	437	room Occupancy:	0.26697530864197533	OR Occupancy:	0.13820923158312393
+roomCost:	36950.0	genderPolicy:	350.0	transferCost:	100.0	delayCost:	315.0	overCrowdRisk:	2.0	overtime:	0.0	idleRoom:	241920.0	idleOR:	1173850.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	6	Optimize a model with 14729 rows, 260780 columns and 3390038 nonzeros
+Variable types: 1200 continuous, 259580 integer (255830 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 6e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.98814e+06
+Presolve removed 1756 rows and 38108 columns (presolve time = 5s) ...
+Presolve removed 2222 rows and 41346 columns (presolve time = 10s) ...
+Presolve removed 2222 rows and 41346 columns
+Presolve time: 10.24s
+Presolved: 12507 rows, 219434 columns, 2754543 nonzeros
+Variable types: 0 continuous, 219434 integer (216124 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.7066100e+06   1.481425e+05   0.000000e+00     11s
+    1862    1.3527963e+06   0.000000e+00   0.000000e+00     11s
+
+Root relaxation: objective 1.352796e+06, 1862 iterations, 0.36 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1352796.26    0  156 1988136.00 1352796.26  32.0%     -   13s
+H    0     0                    1359964.0000 1352796.26  0.53%     -   14s
+H    0     0                    1357976.0000 1352796.26  0.38%     -   15s
+H    0     0                    1356838.0000 1352796.26  0.30%     -   15s
+H    0     0                    1354546.0000 1352796.26  0.13%     -   16s
+     0     0 1353782.15    0  123 1354546.00 1353782.15  0.06%     -   18s
+     0     0 1353782.15    0  212 1354546.00 1353782.15  0.06%     -   29s
+     0     0 1353810.48    0  192 1354546.00 1353810.48  0.05%     -   31s
+     0     0 1354162.83    0  166 1354546.00 1354162.83  0.03%     -   31s
+     0     0 1354288.29    0   42 1354546.00 1354288.29  0.02%     -   33s
+     0     2 1354291.07    0   41 1354546.00 1354291.07  0.02%     -   34s
+     2     4 1354291.07    0  123 1354546.00 1354291.07  0.02%   206   37s
+H    6     6                    1354366.0000 1354301.05  0.00%  68.8   38s
+
+Cutting planes:
+  Gomory: 39
+  Cover: 211
+  Clique: 307
+  MIR: 79
+  Flow cover: 166
+  GUB cover: 10
+  Zero half: 1
+
+Explored 6 nodes (12602 simplex iterations) in 38.36 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 7: 1.35437e+06 1.35455e+06 1.35455e+06 ... 1.98814e+06
+Pool objective bound 1.3543e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.354366000000e+06, best bound 1.354301048202e+06, gap 0.0048%
+	MIPObjVal:	1354366.0	runtime:	38.36584687232971	patientsNumber:	479	room Occupancy:	0.33796296296296297	OR Occupancy:	0.18582198121941543
+roomCost:	38620.0	genderPolicy:	400.0	transferCost:	100.0	delayCost:	315.0	overCrowdRisk:	1.0	overtime:	0.0	idleRoom:	225880.0	idleOR:	1089050.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	7	Optimize a model with 14468 rows, 248866 columns and 3260961 nonzeros
+Variable types: 1176 continuous, 247690 integer (244015 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 5e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.83308e+06
+Presolve removed 1968 rows and 36535 columns (presolve time = 5s) ...
+Presolve removed 2174 rows and 38160 columns
+Presolve time: 9.82s
+Presolved: 12294 rows, 210706 columns, 2654068 nonzeros
+Variable types: 0 continuous, 210706 integer (207460 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.9734650e+06   1.506805e+05   0.000000e+00     10s
+    2184    1.2576273e+06   0.000000e+00   0.000000e+00     10s
+
+Root relaxation: objective 1.257627e+06, 2184 iterations, 0.36 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1257627.26    0  250 1833076.00 1257627.26  31.4%     -   12s
+H    0     0                    1278624.0000 1257627.26  1.64%     -   13s
+H    0     0                    1264069.0000 1257627.26  0.51%     -   14s
+H    0     0                    1259991.0000 1257627.26  0.19%     -   15s
+     0     0 1258801.20    0  146 1259991.00 1258801.20  0.09%     -   17s
+     0     0 1258801.20    0  248 1259991.00 1258801.20  0.09%     -   28s
+     0     0 1259035.51    0  208 1259991.00 1259035.51  0.08%     -   31s
+     0     0 1259138.99    0  214 1259991.00 1259138.99  0.07%     -   32s
+     0     0 1259248.11    0   95 1259991.00 1259248.11  0.06%     -   33s
+H    0     0                    1259636.0000 1259248.11  0.03%     -   35s
+     0     1 1259251.61    0   93 1259636.00 1259251.61  0.03%     -   36s
+     2     2 1259251.61    0  146 1259636.00 1259251.61  0.03%   198   41s
+H    3     2                    1259586.0000 1259251.61  0.03%   132   41s
+    16    11 1259409.02    0  184 1259586.00 1259409.02  0.01%   369   45s
+H   30    19                    1259466.0000 1259448.69  0.00%   197   45s
+
+Cutting planes:
+  Gomory: 34
+  Cover: 220
+  Clique: 248
+  MIR: 101
+  Flow cover: 97
+  GUB cover: 6
+  Zero half: 8
+
+Explored 30 nodes (20340 simplex iterations) in 45.91 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 9: 1.25947e+06 1.25959e+06 1.25964e+06 ... 1.83308e+06
+Pool objective bound 1.25945e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.259466000000e+06, best bound 1.259449000000e+06, gap 0.0013%
+	MIPObjVal:	1259466.0	runtime:	45.92204713821411	patientsNumber:	503	room Occupancy:	0.35030864197530864	OR Occupancy:	0.35445046951461445
+roomCost:	39230.0	genderPolicy:	550.0	transferCost:	100.0	delayCost:	315.0	overCrowdRisk:	1.0	overtime:	0.0	idleRoom:	210820.0	idleOR:	1008450.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	8	Optimize a model with 14187 rows, 240472 columns and 3120676 nonzeros
+Variable types: 1152 continuous, 239320 integer (235720 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 5e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.72685e+06
+Presolve removed 2229 rows and 38484 columns (presolve time = 5s) ...
+Presolve removed 2352 rows and 38542 columns
+Presolve time: 9.26s
+Presolved: 11835 rows, 201930 columns, 2489794 nonzeros
+Variable types: 0 continuous, 201930 integer (198864 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.5651150e+06   1.530435e+05   0.000000e+00     10s
+    2231    1.1848950e+06   0.000000e+00   0.000000e+00     10s
+
+Root relaxation: objective 1.184895e+06, 2231 iterations, 0.34 seconds
+Total elapsed time = 10.02s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1184895.00    0  226 1726854.00 1184895.00  31.4%     -   11s
+H    0     0                    1200361.0000 1184895.00  1.29%     -   12s
+H    0     0                    1190366.0000 1184895.00  0.46%     -   13s
+H    0     0                    1186491.0000 1184895.00  0.13%     -   14s
+     0     0 1186110.63    0  178 1186491.00 1186110.63  0.03%     -   16s
+     0     0 1186110.63    0  264 1186491.00 1186110.63  0.03%     -   26s
+     0     0 1186110.63    0  227 1186491.00 1186110.63  0.03%     -   27s
+     0     0 1186157.11    0  190 1186491.00 1186157.11  0.03%     -   28s
+     0     0 1186192.83    0   90 1186491.00 1186192.83  0.03%     -   29s
+     0     2 1186230.33    0   86 1186491.00 1186230.33  0.02%     -   31s
+     2     4 1186230.33    0  178 1186491.00 1186230.33  0.02%   230   35s
+H    4     4                    1186451.0000 1186230.33  0.02%   115   36s
+
+Cutting planes:
+  Gomory: 32
+  Cover: 217
+  Clique: 248
+  MIR: 103
+  Flow cover: 128
+  GUB cover: 12
+  Zero half: 6
+
+Explored 9 nodes (15596 simplex iterations) in 36.74 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 7: 1.18645e+06 1.18649e+06 1.18649e+06 ... 1.72685e+06
+Pool objective bound 1.18633e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.186451000000e+06, best bound 1.186334000000e+06, gap 0.0099%
+	MIPObjVal:	1186451.0	runtime:	36.74291515350342	patientsNumber:	507	room Occupancy:	0.29475308641975306	OR Occupancy:	0.0
+roomCost:	39200.0	genderPolicy:	500.0	transferCost:	300.0	delayCost:	200.0	overCrowdRisk:	1.0	overtime:	0.0	idleRoom:	197900.0	idleOR:	948350.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	9	Optimize a model with 13921 rows, 267239 columns and 3562709 nonzeros
+Variable types: 1128 continuous, 266111 integer (262586 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 5e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.73343e+06
+Presolve removed 1951 rows and 41663 columns (presolve time = 5s) ...
+Presolve removed 2073 rows and 43438 columns (presolve time = 10s) ...
+Presolve removed 2073 rows and 43438 columns
+Presolve time: 10.66s
+Presolved: 11848 rows, 223801 columns, 2844008 nonzeros
+Variable types: 0 continuous, 223801 integer (220684 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.0842150e+06   1.723626e+05   0.000000e+00     11s
+    2613    1.1576980e+06   0.000000e+00   0.000000e+00     11s
+
+Root relaxation: objective 1.157698e+06, 2613 iterations, 0.43 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1157698.00    0  260 1733427.00 1157698.00  33.2%     -   13s
+H    0     0                    1177895.0000 1157698.00  1.71%     -   15s
+H    0     0                    1162778.0000 1157698.00  0.44%     -   16s
+H    0     0                    1159066.0000 1157698.00  0.12%     -   17s
+     0     0 1158572.91    0  174 1159066.00 1158572.91  0.04%     -   19s
+     0     0 1158572.91    0  240 1159066.00 1158572.91  0.04%     -   32s
+     0     0 1158579.58    0  262 1159066.00 1158579.58  0.04%     -   33s
+     0     0 1158661.15    0  190 1159066.00 1158661.15  0.03%     -   34s
+     0     0 1158738.33    0  164 1159066.00 1158738.33  0.03%     -   35s
+     0     1 1158738.33    0  159 1159066.00 1158738.33  0.03%     -   37s
+     2     3 1158738.33    0  174 1159066.00 1158738.33  0.03%   224   43s
+    12    11 1158881.67    0  174 1159066.00 1158881.67  0.02%  1026   46s
+*   19    15              26    1158887.0000 1158887.00  0.00%   648   47s
+
+Cutting planes:
+  Gomory: 30
+  Cover: 181
+  Implied bound: 1
+  Clique: 195
+  MIR: 65
+  Flow cover: 124
+  GUB cover: 15
+  Zero half: 5
+
+Explored 19 nodes (23118 simplex iterations) in 47.24 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 6: 1.15889e+06 1.15907e+06 1.16278e+06 ... 1.73343e+06
+Pool objective bound 1.15889e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.158887000000e+06, best bound 1.158887000000e+06, gap 0.0000%
+	MIPObjVal:	1158887.0	runtime:	47.25034308433533	patientsNumber:	526	room Occupancy:	0.26080246913580246	OR Occupancy:	0.0
+roomCost:	39080.0	genderPolicy:	500.0	transferCost:	100.0	delayCost:	95.0	overCrowdRisk:	2.0	overtime:	0.0	idleRoom:	184260.0	idleOR:	934850.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	10	Optimize a model with 13664 rows, 300312 columns and 4076276 nonzeros
+Variable types: 1104 continuous, 299208 integer (295758 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 5e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.78179e+06
+Presolve removed 1874 rows and 47571 columns (presolve time = 5s) ...
+Presolve removed 1998 rows and 50152 columns (presolve time = 10s) ...
+Presolve removed 1999 rows and 50153 columns
+Presolve time: 12.42s
+Presolved: 11665 rows, 250159 columns, 3246837 nonzeros
+Variable types: 0 continuous, 250159 integer (247090 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -7.9930850e+06   2.126897e+05   0.000000e+00     13s
+    3213    1.1259880e+06   0.000000e+00   0.000000e+00     13s
+
+Root relaxation: objective 1.125988e+06, 3213 iterations, 0.55 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1125988.00    0  322 1781787.00 1125988.00  36.8%     -   14s
+H    0     0                    1141090.0000 1125988.00  1.32%     -   16s
+H    0     0                    1131813.0000 1125988.00  0.51%     -   17s
+H    0     0                    1127304.0000 1125988.00  0.12%     -   20s
+     0     0 1126875.85    0  236 1127304.00 1126875.85  0.04%     -   22s
+     0     0 1126875.85    0  282 1127304.00 1126875.85  0.04%     -   36s
+     0     0 1126875.85    0  277 1127304.00 1126875.85  0.04%     -   38s
+     0     0 1126930.44    0  222 1127304.00 1126930.44  0.03%     -   39s
+     0     0 1127075.09    0  253 1127304.00 1127075.09  0.02%     -   40s
+     0     1 1127075.09    0  247 1127304.00 1127075.09  0.02%     -   44s
+     2     3 1127075.09    0  236 1127304.00 1127075.09  0.02%   216   48s
+     9     8 1127223.86    0   57 1127304.00 1127223.86  0.01%  48.0   50s
+
+Cutting planes:
+  Gomory: 40
+  Cover: 366
+  Implied bound: 2
+  Clique: 485
+  MIR: 104
+  Flow cover: 277
+  GUB cover: 30
+  Zero half: 11
+
+Explored 9 nodes (20397 simplex iterations) in 50.10 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 5: 1.1273e+06 1.13181e+06 1.13181e+06 ... 1.78179e+06
+Pool objective bound 1.12722e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.127304000000e+06, best bound 1.127224000000e+06, gap 0.0071%
+	MIPObjVal:	1127304.0	runtime:	50.11157703399658	patientsNumber:	554	room Occupancy:	0.3148148148148148	OR Occupancy:	0.12498346779526517
+roomCost:	41750.0	genderPolicy:	150.0	transferCost:	0.0	delayCost:	0.0	overCrowdRisk:	4.0	overtime:	0.0	idleRoom:	169500.0	idleOR:	915900.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	11	Optimize a model with 13399 rows, 289171 columns and 3885467 nonzeros
+Variable types: 1080 continuous, 288091 integer (284716 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.65353e+06
+Presolve removed 1848 rows and 45037 columns (presolve time = 6s) ...
+Presolve removed 1971 rows and 46815 columns (presolve time = 10s) ...
+Presolve removed 1972 rows and 46816 columns
+Presolve time: 11.96s
+Presolved: 11427 rows, 242355 columns, 3099786 nonzeros
+Variable types: 0 continuous, 242355 integer (239359 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -7.3221850e+06   2.026918e+05   0.000000e+00     13s
+    2965    1.0301900e+06   0.000000e+00   0.000000e+00     13s
+
+Root relaxation: objective 1.030190e+06, 2965 iterations, 0.52 seconds
+Total elapsed time = 15.20s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1030190.00    0  316 1653531.00 1030190.00  37.7%     -   15s
+H    0     0                    1044865.0000 1030190.00  1.40%     -   17s
+H    0     0                    1035937.0000 1030190.00  0.55%     -   18s
+H    0     0                    1031709.0000 1030190.00  0.15%     -   21s
+     0     0 1031272.91    0  264 1031709.00 1031272.91  0.04%     -   24s
+     0     0 1031272.91    0  354 1031709.00 1031272.91  0.04%     -   37s
+     0     0 1031272.91    0  356 1031709.00 1031272.91  0.04%     -   39s
+     0     0 1031320.44    0  295 1031709.00 1031320.44  0.04%     -   40s
+     0     0 1031506.25    0  221 1031709.00 1031506.25  0.02%     -   42s
+     0     1 1031506.49    0  221 1031709.00 1031506.49  0.02%     -   45s
+     4     4 1031506.49    0  274 1031709.00 1031506.49  0.02%   107   50s
+H   13    10                    1031708.0000 1031600.19  0.01%   627   52s
+
+Cutting planes:
+  Gomory: 28
+  Cover: 272
+  Clique: 479
+  MIR: 92
+  Flow cover: 155
+  GUB cover: 12
+  Zero half: 6
+
+Explored 18 nodes (26685 simplex iterations) in 52.96 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 8: 1.03171e+06 1.03171e+06 1.03171e+06 ... 1.65353e+06
+Pool objective bound 1.03161e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.031708000000e+06, best bound 1.031610000000e+06, gap 0.0095%
+	MIPObjVal:	1031708.0	runtime:	52.97368502616882	patientsNumber:	574	room Occupancy:	0.32098765432098764	OR Occupancy:	0.16532204734823436
+roomCost:	42960.0	genderPolicy:	150.0	transferCost:	0.0	delayCost:	80.0	overCrowdRisk:	8.0	overtime:	0.0	idleRoom:	155660.0	idleOR:	832850.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	12	Optimize a model with 13133 rows, 300913 columns and 3924229 nonzeros
+Variable types: 1056 continuous, 299857 integer (296557 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.55378e+06
+Presolve removed 1596 rows and 47084 columns (presolve time = 6s) ...
+Presolve removed 1874 rows and 50375 columns (presolve time = 10s) ...
+Presolve removed 1875 rows and 50377 columns
+Presolve time: 12.05s
+Presolved: 11258 rows, 250536 columns, 3094605 nonzeros
+Variable types: 0 continuous, 250536 integer (247598 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -8.3880000e+06   2.129640e+05   0.000000e+00     13s
+    3125    9.3305500e+05   0.000000e+00   0.000000e+00     13s
+
+Root relaxation: objective 9.330550e+05, 3125 iterations, 0.52 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 933055.000    0  328 1553784.00 933055.000  39.9%     -   14s
+H    0     0                    955263.00000 933055.000  2.32%     -   17s
+H    0     0                    940095.00000 933055.000  0.75%     -   18s
+H    0     0                    939638.00000 933055.000  0.70%     -   19s
+H    0     0                    934483.00000 933055.000  0.15%     -   21s
+     0     0 934125.088    0  229 934483.000 934125.088  0.04%     -   23s
+     0     0 934125.088    0  340 934483.000 934125.088  0.04%     -   37s
+     0     0 934125.088    0  339 934483.000 934125.088  0.04%     -   39s
+     0     0 934166.303    0  315 934483.000 934166.303  0.03%     -   40s
+     0     0 934327.622    0   84 934483.000 934327.622  0.02%     -   41s
+     0     1 934332.154    0   84 934483.000 934332.154  0.02%     -   43s
+     2     3 934332.154    0  229 934483.000 934332.154  0.02%   169   47s
+
+Cutting planes:
+  Gomory: 27
+  Cover: 343
+  Implied bound: 2
+  Clique: 502
+  MIR: 132
+  Flow cover: 203
+  GUB cover: 13
+  Zero half: 12
+
+Explored 9 nodes (20226 simplex iterations) in 48.69 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 7: 934483 934483 934483 ... 1.55378e+06
+Pool objective bound 934400
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.344830000000e+05, best bound 9.344000000000e+05, gap 0.0089%
+	MIPObjVal:	934483.0	runtime:	48.704164028167725	patientsNumber:	593	room Occupancy:	0.375	OR Occupancy:	0.24930564740113742
+roomCost:	43350.0	genderPolicy:	50.0	transferCost:	200.0	delayCost:	190.0	overCrowdRisk:	13.0	overtime:	0.0	idleRoom:	143080.0	idleOR:	747600.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	13	Optimize a model with 12856 rows, 272361 columns and 3356287 nonzeros
+Variable types: 1032 continuous, 271329 integer (268104 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.40484e+06
+Presolve removed 1562 rows and 46055 columns (presolve time = 5s) ...
+Presolve removed 1870 rows and 46186 columns (presolve time = 10s) ...
+Presolve removed 1870 rows and 46186 columns
+Presolve time: 10.70s
+Presolved: 10986 rows, 226175 columns, 2652207 nonzeros
+Variable types: 0 continuous, 226175 integer (223315 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -7.7611150e+06   1.793533e+05   0.000000e+00     11s
+    2981    8.5075800e+05   0.000000e+00   0.000000e+00     11s
+
+Root relaxation: objective 8.507580e+05, 2981 iterations, 0.47 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 850758.000    0  342 1404835.00 850758.000  39.4%     -   12s
+H    0     0                    875568.00000 850758.000  2.83%     -   15s
+H    0     0                    858679.00000 850758.000  0.92%     -   15s
+H    0     0                    852014.00000 850758.000  0.15%     -   16s
+     0     0 851761.757    0  254 852014.000 851761.757  0.03%     -   18s
+     0     0 851761.757    0  370 852014.000 851761.757  0.03%     -   29s
+     0     0 851772.250    0  483 852014.000 851772.250  0.03%     -   31s
+     0     0 851835.842    0  356 852014.000 851835.842  0.02%     -   32s
+     0     0 851927.180    0  106 852014.000 851927.180  0.01%     -   33s
+     0     1 851927.204    0  106 852014.000 851927.204  0.01%     -   35s
+
+Cutting planes:
+  Gomory: 12
+  Cover: 114
+  Clique: 125
+  MIR: 50
+  Flow cover: 68
+  GUB cover: 5
+  Zero half: 1
+
+Explored 5 nodes (16198 simplex iterations) in 37.81 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 5: 852014 852014 858679 ... 1.40484e+06
+Pool objective bound 851971
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.520140000000e+05, best bound 8.519710000000e+05, gap 0.0050%
+	MIPObjVal:	852014.0	runtime:	37.821115016937256	patientsNumber:	601	room Occupancy:	0.4166666666666667	OR Occupancy:	0.27311202221928316
+roomCost:	43990.0	genderPolicy:	100.0	transferCost:	0.0	delayCost:	460.0	overCrowdRisk:	14.0	overtime:	0.0	idleRoom:	131400.0	idleOR:	676050.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	14	Optimize a model with 12582 rows, 262256 columns and 3067429 nonzeros
+Variable types: 1008 continuous, 261248 integer (258098 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.27879e+06
+Presolve removed 1523 rows and 44986 columns (presolve time = 5s) ...
+Presolve removed 1881 rows and 45138 columns
+Presolve time: 9.89s
+Presolved: 10701 rows, 217118 columns, 2393100 nonzeros
+Variable types: 0 continuous, 217118 integer (214340 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -7.7329050e+06   1.688850e+05   0.000000e+00     10s
+    2994    7.6588941e+05   0.000000e+00   0.000000e+00     11s
+
+Root relaxation: objective 7.658894e+05, 2994 iterations, 0.43 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 765889.409    0  333 1278790.00 765889.409  40.1%     -   12s
+H    0     0                    797244.00000 765889.409  3.93%     -   13s
+H    0     0                    773707.00000 765889.409  1.01%     -   13s
+H    0     0                    767716.00000 765889.409  0.24%     -   15s
+     0     0 767274.998    0  411 767716.000 767274.998  0.06%     -   16s
+     0     0 767292.225    0  350 767716.000 767292.225  0.06%     -   19s
+     0     0 767525.165    0  345 767716.000 767525.165  0.02%     -   21s
+     0     0 767525.165    0  329 767716.000 767525.165  0.02%     -   31s
+     0     0 767525.165    0  382 767716.000 767525.165  0.02%     -   31s
+     0     0 767525.165    0  507 767716.000 767525.165  0.02%     -   32s
+     0     0 767558.476    0  139 767716.000 767558.476  0.02%     -   33s
+     0     1 767558.476    0  135 767716.000 767558.476  0.02%     -   34s
+     2     3 767558.476    0  345 767716.000 767558.476  0.02%  96.0   37s
+    16    14 767639.165    0  345 767716.000 767639.165  0.01%   918   43s
+
+Cutting planes:
+  Gomory: 26
+  Cover: 161
+  Clique: 147
+  MIR: 46
+  Flow cover: 112
+  GUB cover: 12
+  Zero half: 21
+
+Explored 26 nodes (26721 simplex iterations) in 44.91 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 4: 767716 773707 797244 1.27879e+06 
+Pool objective bound 767641
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.677160000000e+05, best bound 7.676410000000e+05, gap 0.0098%
+	MIPObjVal:	767716.0	runtime:	44.91560983657837	patientsNumber:	612	room Occupancy:	0.4660493827160494	OR Occupancy:	0.3928051844994048
+roomCost:	45790.0	genderPolicy:	700.0	transferCost:	500.0	delayCost:	550.0	overCrowdRisk:	16.0	overtime:	0.0	idleRoom:	118860.0	idleOR:	601300.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	15	Optimize a model with 12285 rows, 231575 columns and 2568773 nonzeros
+Variable types: 984 continuous, 230591 integer (227516 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.12501e+06
+Presolve removed 2079 rows and 41336 columns (presolve time = 5s) ...
+Presolve removed 2085 rows and 41342 columns
+Presolve time: 7.02s
+Presolved: 10200 rows, 190233 columns, 1965605 nonzeros
+Variable types: 0 continuous, 190233 integer (187621 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.5821800e+06   1.454225e+05   0.000000e+00      7s
+    3052    7.0253291e+05   0.000000e+00   0.000000e+00      8s
+
+Root relaxation: objective 7.025329e+05, 3052 iterations, 0.39 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 702532.909    0  233 1125007.00 702532.909  37.6%     -    9s
+H    0     0                    718386.00000 702532.909  2.21%     -   10s
+H    0     0                    707850.00000 702532.909  0.75%     -   10s
+H    0     0                    703940.00000 702532.909  0.20%     -   11s
+     0     0 703818.417    0  200 703940.000 703818.417  0.02%     -   12s
+     0     0 703818.417    0  291 703940.000 703818.417  0.02%     -   20s
+     0     0 703820.209    0  220 703940.000 703820.209  0.02%     -   22s
+     0     0 703861.644    0   81 703940.000 703861.644  0.01%     -   22s
+     0     0 703908.833    0   18 703940.000 703908.833  0.00%     -   23s
+
+Cutting planes:
+  Cover: 205
+  Clique: 469
+  MIR: 207
+  GUB cover: 1
+  Zero half: 4
+
+Explored 0 nodes (11257 simplex iterations) in 23.48 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 4: 703940 707850 718386 1.12501e+06 
+Pool objective bound 703909
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.039400000000e+05, best bound 7.039090000000e+05, gap 0.0044%
+	MIPObjVal:	703940.0	runtime:	23.487555027008057	patientsNumber:	600	room Occupancy:	0.3966049382716049	OR Occupancy:	0.0
+roomCost:	44020.0	genderPolicy:	650.0	transferCost:	0.0	delayCost:	655.0	overCrowdRisk:	15.0	overtime:	0.0	idleRoom:	109400.0	idleOR:	549200.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	16	Optimize a model with 11993 rows, 254174 columns and 2878503 nonzeros
+Variable types: 960 continuous, 253214 integer (250214 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.12936e+06
+Presolve removed 1902 rows and 44956 columns (presolve time = 5s) ...
+Presolve removed 1910 rows and 44964 columns
+Presolve time: 9.09s
+Presolved: 10083 rows, 209210 columns, 2219804 nonzeros
+Variable types: 0 continuous, 209210 integer (206597 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -7.6487500e+06   1.712507e+05   0.000000e+00     10s
+    3286    6.7937000e+05   0.000000e+00   0.000000e+00     10s
+
+Root relaxation: objective 6.793700e+05, 3286 iterations, 0.45 seconds
+Total elapsed time = 10.35s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 679370.000    0  250 1129362.00 679370.000  39.8%     -   11s
+H    0     0                    701186.00000 679370.000  3.11%     -   12s
+H    0     0                    684793.00000 679370.000  0.79%     -   12s
+H    0     0                    680904.00000 679370.000  0.23%     -   14s
+     0     0 680625.823    0  244 680904.000 680625.823  0.04%     -   15s
+     0     0 680681.015    0  214 680904.000 680681.015  0.03%     -   16s
+     0     0 680758.486    0  127 680904.000 680758.486  0.02%     -   18s
+     0     0 680758.486    0  208 680904.000 680758.486  0.02%     -   23s
+     0     0 680758.486    0  281 680904.000 680758.486  0.02%     -   23s
+     0     0 680763.736    0  195 680904.000 680763.736  0.02%     -   24s
+     0     0 680799.872    0   50 680904.000 680799.872  0.02%     -   24s
+     0     2 680814.333    0   50 680904.000 680814.333  0.01%     -   25s
+H    1     2                    680887.00000 680814.333  0.01%   387   25s
+
+Cutting planes:
+  Gomory: 27
+  Cover: 121
+  Clique: 122
+  MIR: 61
+  Flow cover: 71
+  GUB cover: 1
+  Zero half: 4
+
+Explored 6 nodes (16611 simplex iterations) in 26.41 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 6: 680887 680904 680904 ... 1.12936e+06
+Pool objective bound 680821
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.808870000000e+05, best bound 6.808210000000e+05, gap 0.0097%
+	MIPObjVal:	680887.0	runtime:	26.41524910926819	patientsNumber:	593	room Occupancy:	0.3333333333333333	OR Occupancy:	0.0
+roomCost:	42810.0	genderPolicy:	850.0	transferCost:	0.0	delayCost:	930.0	overCrowdRisk:	17.0	overtime:	0.0	idleRoom:	98680.0	idleOR:	537600.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	17	Optimize a model with 11731 rows, 284413 columns and 3249877 nonzeros
+Variable types: 936 continuous, 283477 integer (280552 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.1409e+06
+Presolve removed 1126 rows and 51968 columns (presolve time = 5s) ...
+Presolve removed 1740 rows and 52534 columns (presolve time = 10s) ...
+Presolve removed 1740 rows and 52534 columns
+Presolve time: 10.27s
+Presolved: 9991 rows, 231879 columns, 2457881 nonzeros
+Variable types: 0 continuous, 231879 integer (229285 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -9.0936950e+06   1.956560e+05   0.000000e+00     11s
+    3340    6.4052300e+05   0.000000e+00   0.000000e+00     11s
+
+Root relaxation: objective 6.405230e+05, 3340 iterations, 0.51 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 640523.000    0  218 1140903.00 640523.000  43.9%     -   12s
+H    0     0                    666859.00000 640523.000  3.95%     -   13s
+H    0     0                    645542.00000 640523.000  0.78%     -   14s
+H    0     0                    642224.00000 640523.000  0.26%     -   16s
+     0     0 641927.194    0  317 642224.000 641927.194  0.05%     -   17s
+     0     0 641981.685    0  271 642224.000 641981.685  0.04%     -   18s
+     0     0 642085.851    0  181 642224.000 642085.851  0.02%     -   20s
+     0     0 642085.851    0  188 642224.000 642085.851  0.02%     -   27s
+     0     0 642085.851    0  365 642224.000 642085.851  0.02%     -   27s
+     0     0 642110.796    0  213 642224.000 642110.796  0.02%     -   27s
+     0     0 642151.261    0  267 642224.000 642151.261  0.01%     -   28s
+     0     1 642161.481    0  211 642224.000 642161.481  0.01%     -   30s
+
+Cutting planes:
+  Gomory: 25
+  Cover: 181
+  Clique: 438
+  MIR: 145
+  GUB cover: 3
+  Zero half: 3
+
+Explored 1 nodes (13937 simplex iterations) in 30.81 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 5: 642224 645542 645687 ... 1.1409e+06
+Pool objective bound 642162
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.422240000000e+05, best bound 6.421620000000e+05, gap 0.0097%
+	MIPObjVal:	642224.0	runtime:	30.819000005722046	patientsNumber:	616	room Occupancy:	0.3873456790123457	OR Occupancy:	0.16664462372702024
+roomCost:	44250.0	genderPolicy:	950.0	transferCost:	0.0	delayCost:	1035.0	overCrowdRisk:	19.0	overtime:	0.0	idleRoom:	85920.0	idleOR:	510050.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	18	Optimize a model with 11448 rows, 264558 columns and 2869326 nonzeros
+Variable types: 912 continuous, 263646 integer (260796 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 1.00796e+06
+Presolve removed 1663 rows and 48180 columns (presolve time = 5s) ...
+Presolve removed 1697 rows and 48312 columns
+Presolve time: 8.83s
+Presolved: 9751 rows, 216246 columns, 2174995 nonzeros
+Variable types: 0 continuous, 216246 integer (213719 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -8.2857500e+06   1.630302e+05   0.000000e+00      9s
+    3527    5.5745850e+05   0.000000e+00   0.000000e+00     10s
+
+Root relaxation: objective 5.574585e+05, 3527 iterations, 0.47 seconds
+Total elapsed time = 10.09s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 557458.500    0  279 1007959.00 557458.500  44.7%     -   11s
+H    0     0                    578255.00000 557458.500  3.60%     -   12s
+H    0     0                    564308.00000 557458.500  1.21%     -   13s
+H    0     0                    559177.00000 557458.500  0.31%     -   14s
+     0     0 558814.002    0  260 559177.000 558814.002  0.06%     -   15s
+     0     0 558862.733    0  168 559177.000 558862.733  0.06%     -   17s
+     0     0 558992.901    0  238 559177.000 558992.901  0.03%     -   18s
+     0     0 558992.901    0  231 559177.000 558992.901  0.03%     -   26s
+     0     0 558992.901    0  263 559177.000 558992.901  0.03%     -   26s
+     0     0 558992.901    0  217 559177.000 558992.901  0.03%     -   26s
+     0     0 559057.268    0  252 559177.000 559057.268  0.02%     -   27s
+     0     1 559059.891    0  252 559177.000 559059.891  0.02%     -   30s
+
+Cutting planes:
+  Gomory: 39
+  Cover: 229
+  Implied bound: 2
+  Clique: 370
+  MIR: 54
+  Flow cover: 164
+  GUB cover: 12
+  Zero half: 17
+
+Explored 11 nodes (21877 simplex iterations) in 33.87 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 4: 559177 564308 578255 1.00796e+06 
+Pool objective bound 559139
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.591770000000e+05, best bound 5.591390000000e+05, gap 0.0068%
+	MIPObjVal:	559177.0	runtime:	33.877379179000854	patientsNumber:	618	room Occupancy:	0.47685185185185186	OR Occupancy:	0.39809549001454836
+roomCost:	43520.0	genderPolicy:	750.0	transferCost:	300.0	delayCost:	980.0	overCrowdRisk:	17.0	overtime:	0.0	idleRoom:	75860.0	idleOR:	437750.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	19	Optimize a model with 11164 rows, 237650 columns and 2481407 nonzeros
+Variable types: 888 continuous, 236762 integer (233987 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 872749
+Presolve removed 1636 rows and 46026 columns (presolve time = 5s) ...
+Presolve removed 1667 rows and 46057 columns
+Presolve time: 7.66s
+Presolved: 9497 rows, 191593 columns, 1869761 nonzeros
+Variable types: 0 continuous, 191593 integer (189137 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.3553950e+06   1.232749e+05   0.000000e+00      8s
+    3363    4.8961300e+05   0.000000e+00   0.000000e+00      8s
+
+Root relaxation: objective 4.896130e+05, 3363 iterations, 0.38 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 489613.000    0  248 872749.000 489613.000  43.9%     -    9s
+H    0     0                    515580.00000 489613.000  5.04%     -   10s
+H    0     0                    494713.00000 489613.000  1.03%     -   10s
+H    0     0                    490943.00000 489613.000  0.27%     -   11s
+     0     0 490773.113    0  135 490943.000 490773.113  0.03%     -   12s
+     0     0 490857.333    0   56 490943.000 490857.333  0.02%     -   13s
+     0     0 490901.063    0   98 490943.000 490901.063  0.01%     -   14s
+
+Cutting planes:
+  Cover: 185
+  Clique: 536
+  MIR: 140
+  GUB cover: 1
+
+Explored 0 nodes (6220 simplex iterations) in 14.85 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 4: 490943 494713 515580 872749 
+Pool objective bound 490902
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.909430000000e+05, best bound 4.909020000000e+05, gap 0.0084%
+	MIPObjVal:	490943.0	runtime:	14.856374979019165	patientsNumber:	619	room Occupancy:	0.5108024691358025	OR Occupancy:	0.3438698584843275
+roomCost:	42060.0	genderPolicy:	600.0	transferCost:	100.0	delayCost:	1285.0	overCrowdRisk:	18.0	overtime:	0.0	idleRoom:	65680.0	idleOR:	381200.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	20	Optimize a model with 10887 rows, 224886 columns and 2120392 nonzeros
+Variable types: 864 continuous, 224022 integer (221322 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 760191
+Presolve removed 1608 rows and 43680 columns (presolve time = 5s) ...
+Presolve removed 1626 rows and 43697 columns
+Presolve time: 7.16s
+Presolved: 9261 rows, 181189 columns, 1591077 nonzeros
+Variable types: 0 continuous, 181189 integer (178804 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.2496100e+06   9.123477e+04   0.000000e+00      7s
+    3026    4.0879850e+05   0.000000e+00   0.000000e+00      8s
+
+Root relaxation: objective 4.087985e+05, 3026 iterations, 0.33 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 408798.500    0  208 760191.000 408798.500  46.2%     -    9s
+H    0     0                    414100.00000 408798.500  1.28%     -    9s
+H    0     0                    413801.00000 408798.500  1.21%     -   10s
+H    0     0                    410106.00000 408798.500  0.32%     -   11s
+     0     0 409876.047    0  108 410106.000 409876.047  0.06%     -   12s
+     0     0 409910.809    0  160 410106.000 409910.809  0.05%     -   13s
+     0     0 409971.347    0  230 410106.000 409971.347  0.03%     -   14s
+     0     0 409971.347    0  202 410106.000 409971.347  0.03%     -   18s
+     0     0 409971.347    0  154 410106.000 409971.347  0.03%     -   18s
+     0     0 409971.347    0  199 410106.000 409971.347  0.03%     -   19s
+     0     0 410015.316    0  221 410106.000 410015.316  0.02%     -   19s
+     0     0 410034.798    0  222 410106.000 410034.798  0.02%     -   19s
+     0     0 410046.984    0  180 410106.000 410046.984  0.01%     -   19s
+     0     1 410047.140    0  180 410106.000 410047.140  0.01%     -   20s
+
+Cutting planes:
+  Gomory: 16
+  Cover: 101
+  Clique: 90
+  MIR: 47
+  Flow cover: 47
+  GUB cover: 6
+  Zero half: 9
+
+Explored 9 nodes (16566 simplex iterations) in 21.35 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 4: 410106 413801 414100 760191 
+Pool objective bound 410066
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.101060000000e+05, best bound 4.100660000000e+05, gap 0.0098%
+	MIPObjVal:	410106.0	runtime:	21.352323055267334	patientsNumber:	627	room Occupancy:	0.5262345679012346	OR Occupancy:	0.359740775029758
+roomCost:	39780.0	genderPolicy:	550.0	transferCost:	300.0	delayCost:	1715.0	overCrowdRisk:	21.0	overtime:	0.0	idleRoom:	57040.0	idleOR:	310700.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	21	Optimize a model with 10600 rows, 228201 columns and 1901326 nonzeros
+Variable types: 840 continuous, 227361 integer (224736 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 646323
+Presolve removed 1567 rows and 41928 columns (presolve time = 5s) ...
+Presolve removed 1567 rows and 41928 columns
+Presolve time: 5.63s
+Presolved: 9033 rows, 186273 columns, 1457124 nonzeros
+Variable types: 0 continuous, 186273 integer (183950 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.0681850e+06   6.555173e+04   0.000000e+00      6s
+    2691    3.2338695e+05   0.000000e+00   0.000000e+00      6s
+
+Root relaxation: objective 3.233870e+05, 2691 iterations, 0.27 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 323386.955    0  214 646323.000 323386.955  50.0%     -    7s
+H    0     0                    327256.00000 323386.955  1.18%     -    7s
+H    0     0                    324420.00000 323386.955  0.32%     -    9s
+     0     0 324281.242    0  120 324420.000 324281.242  0.04%     -   10s
+     0     0 324295.392    0   91 324420.000 324295.392  0.04%     -   11s
+     0     0 324320.831    0   77 324420.000 324320.831  0.03%     -   12s
+     0     0 324320.831    0  135 324420.000 324320.831  0.03%     -   14s
+     0     0 324320.831    0  161 324420.000 324320.831  0.03%     -   14s
+     0     0 324320.831    0  124 324420.000 324320.831  0.03%     -   15s
+     0     0 324342.246    0  122 324420.000 324342.246  0.02%     -   15s
+     0     0 324345.594    0   89 324420.000 324345.594  0.02%     -   15s
+     0     0 324351.389    0   54 324420.000 324351.389  0.02%     -   15s
+     0     1 324351.389    0   54 324420.000 324351.389  0.02%     -   15s
+
+Cutting planes:
+  Gomory: 16
+  Cover: 15
+  Clique: 13
+  MIR: 2
+  Flow cover: 9
+  GUB cover: 2
+  Zero half: 1
+
+Explored 21 nodes (14965 simplex iterations) in 17.16 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 3: 324420 327256 646323 
+Pool objective bound 324389
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.244200000000e+05, best bound 3.243890000000e+05, gap 0.0096%
+	MIPObjVal:	324420.0	runtime:	17.170414924621582	patientsNumber:	625	room Occupancy:	0.5370370370370371	OR Occupancy:	0.4767887845523079
+roomCost:	36880.0	genderPolicy:	500.0	transferCost:	100.0	delayCost:	1840.0	overCrowdRisk:	20.0	overtime:	0.0	idleRoom:	48880.0	idleOR:	236200.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	22	Optimize a model with 10297 rows, 212102 columns and 1599645 nonzeros
+Variable types: 816 continuous, 211286 integer (208736 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 535343
+Presolve removed 1674 rows and 35551 columns (presolve time = 5s) ...
+Presolve removed 1674 rows and 35551 columns
+Presolve time: 5.08s
+Presolved: 8623 rows, 176551 columns, 1262761 nonzeros
+Variable types: 0 continuous, 176551 integer (174345 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.9103500e+06   4.523067e+04   0.000000e+00      5s
+    2600    2.5871885e+05   0.000000e+00   0.000000e+00      6s
+
+Root relaxation: objective 2.587188e+05, 2600 iterations, 0.28 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 258718.850    0  169 535343.000 258718.850  51.7%     -    6s
+H    0     0                    261747.00000 258718.850  1.16%     -    6s
+H    0     0                    259853.00000 258718.850  0.44%     -    9s
+     0     0 259610.934    0  133 259853.000 259610.934  0.09%     -   10s
+     0     0 259642.278    0  148 259853.000 259642.278  0.08%     -   11s
+     0     0 259703.856    0  119 259853.000 259703.856  0.06%     -   12s
+     0     0 259703.856    0  154 259853.000 259703.856  0.06%     -   17s
+     0     0 259703.856    0  137 259853.000 259703.856  0.06%     -   17s
+     0     0 259713.925    0  140 259853.000 259713.925  0.05%     -   18s
+     0     0 259737.419    0  133 259853.000 259737.419  0.04%     -   18s
+     0     2 259748.858    0  130 259853.000 259748.858  0.04%     -   19s
+     2     4 259748.858    0  119 259853.000 259748.858  0.04%  89.5   21s
+    23    20 259814.177    0  100 259853.000 259814.177  0.01%   414   25s
+
+Cutting planes:
+  Gomory: 18
+  Cover: 28
+  Clique: 33
+  MIR: 4
+  StrongCG: 1
+  Flow cover: 20
+  GUB cover: 1
+  Zero half: 1
+
+Explored 33 nodes (20182 simplex iterations) in 26.04 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 3: 259853 261747 535343 
+Pool objective bound 259834
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.598530000000e+05, best bound 2.598340000000e+05, gap 0.0073%
+	MIPObjVal:	259853.0	runtime:	26.050172090530396	patientsNumber:	607	room Occupancy:	0.4506172839506173	OR Occupancy:	0.0
+roomCost:	32580.0	genderPolicy:	550.0	transferCost:	100.0	delayCost:	1695.0	overCrowdRisk:	28.0	overtime:	0.0	idleRoom:	41500.0	idleOR:	183400.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	23	Optimize a model with 10015 rows, 238097 columns and 1809306 nonzeros
+Variable types: 792 continuous, 237305 integer (234830 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 511123
+Presolve removed 1464 rows and 42189 columns (presolve time = 5s) ...
+Presolve removed 1476 rows and 42195 columns
+Presolve time: 6.05s
+Presolved: 8539 rows, 195902 columns, 1412852 nonzeros
+Variable types: 0 continuous, 195902 integer (193698 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.0128750e+06   5.492534e+04   0.000000e+00      6s
+    2482    2.2775529e+05   0.000000e+00   0.000000e+00      7s
+
+Root relaxation: objective 2.277553e+05, 2482 iterations, 0.29 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 227755.287    0  187 511123.000 227755.287  55.4%     -    7s
+H    0     0                    232157.00000 227755.287  1.90%     -    7s
+H    0     0                    229218.00000 227755.287  0.64%     -   12s
+     0     0 228879.949    0  237 229218.000 228879.949  0.15%     -   13s
+     0     0 228894.354    0  187 229218.000 228894.354  0.14%     -   14s
+     0     0 228952.132    0  127 229218.000 228952.132  0.12%     -   16s
+     0     0 228952.132    0  184 229218.000 228952.132  0.12%     -   22s
+     0     0 228952.132    0  234 229218.000 228952.132  0.12%     -   23s
+     0     0 228952.132    0  213 229218.000 228952.132  0.12%     -   23s
+     0     0 228973.980    0  191 229218.000 228973.980  0.11%     -   24s
+     0     0 228976.999    0  208 229218.000 228976.999  0.11%     -   24s
+     0     0 228986.720    0  252 229218.000 228986.720  0.10%     -   24s
+     0     0 228991.102    0  213 229218.000 228991.102  0.10%     -   25s
+     0     0 229001.642    0  256 229218.000 229001.642  0.09%     -   25s
+     0     0 229001.936    0  248 229218.000 229001.936  0.09%     -   25s
+     0     0 229009.570    0  217 229218.000 229009.570  0.09%     -   26s
+     0     1 229009.570    0  217 229218.000 229009.570  0.09%     -   29s
+     2     3 229009.570    0  127 229218.000 229009.570  0.09%   186   37s
+    10     8 229032.893    0  250 229218.000 229032.893  0.08%  37.3   40s
+    22    18 229088.164    0  127 229218.000 229088.164  0.06%   653   51s
+    37    28 229103.160    0  324 229218.000 229103.160  0.05%   388   55s
+    54    39 229105.589    0  360 229218.000 229105.589  0.05%   266   60s
+    74    53 229107.566    0  188 229218.000 229107.566  0.05%   194   65s
+    83    60 229110.538    0  127 229218.000 229110.538  0.05%   299   74s
+    85    61 229110.538    0  137 229218.000 229110.538  0.05%   292   75s
+   102    73 229110.538    0  194 229218.000 229110.538  0.05%   243   80s
+   108    77 229110.538    0  201 229218.000 229110.538  0.05%   230   86s
+H  110    73                    229212.00000 229110.538  0.04%   225   87s
+H  110    69                    229192.00000 229110.538  0.04%   225   88s
+   112    72 229110.575   35  150 229192.000 229110.575  0.04%   301   91s
+*  144    72              45    229191.00000 229118.755  0.03%   246   93s
+*  198    54              44    229188.00000 229143.385  0.02%   197   94s
+
+Cutting planes:
+  Gomory: 50
+  Cover: 138
+  Implied bound: 1
+  Clique: 159
+  MIR: 35
+  Flow cover: 95
+  GUB cover: 9
+  Zero half: 11
+
+Explored 233 nodes (46529 simplex iterations) in 94.88 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 7: 229188 229191 229192 ... 511123
+Pool objective bound 229168
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.291880000000e+05, best bound 2.291680000000e+05, gap 0.0087%
+	MIPObjVal:	229188.0	runtime:	94.88949799537659	patientsNumber:	610	room Occupancy:	0.3904320987654321	OR Occupancy:	0.0
+roomCost:	30070.0	genderPolicy:	950.0	transferCost:	0.0	delayCost:	1690.0	overCrowdRisk:	28.0	overtime:	0.0	idleRoom:	32200.0	idleOR:	164250.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	24	Optimize a model with 9755 rows, 267245 columns and 2017898 nonzeros
+Variable types: 768 continuous, 266477 integer (264077 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 500235
+Presolve removed 1401 rows and 47661 columns (presolve time = 5s) ...
+Presolve removed 1402 rows and 47662 columns
+Presolve time: 6.41s
+Presolved: 8353 rows, 219583 columns, 1570480 nonzeros
+Variable types: 0 continuous, 219583 integer (217432 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.8955250e+06   6.133244e+04   0.000000e+00      7s
+    2397    1.9936789e+05   0.000000e+00   0.000000e+00      7s
+
+Root relaxation: objective 1.993679e+05, 2397 iterations, 0.31 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 199367.893    0  169 500235.000 199367.893  60.1%     -    7s
+H    0     0                    205707.00000 199367.893  3.08%     -    8s
+H    0     0                    203084.00000 199367.893  1.83%     -   12s
+     0     0 202628.171    0  277 203084.000 202628.171  0.22%     -   12s
+     0     0 202667.887    0  227 203084.000 202667.887  0.20%     -   14s
+     0     0 202771.100    0  227 203084.000 202771.100  0.15%     -   15s
+     0     0 202771.100    0  158 203084.000 202771.100  0.15%     -   21s
+     0     0 202771.100    0  271 203084.000 202771.100  0.15%     -   23s
+     0     0 202771.100    0  270 203084.000 202771.100  0.15%     -   23s
+     0     0 202793.781    0  241 203084.000 202793.781  0.14%     -   24s
+     0     0 202826.868    0  252 203084.000 202826.868  0.13%     -   25s
+     0     0 202858.549    0  201 203084.000 202858.549  0.11%     -   26s
+     0     1 202858.549    0  181 203084.000 202858.549  0.11%     -   29s
+H    1     1                    203029.00000 202858.549  0.08%   415   30s
+     2     2 202858.549    0  227 203029.000 202858.549  0.08%   208   37s
+    10     7 202881.644    0  281 203029.000 202881.644  0.07%  41.5   40s
+    22    17 202939.819    0  227 203029.000 202939.819  0.04%   627   52s
+    34    25 202939.819    0  237 203029.000 202939.819  0.04%   406   55s
+    51    36 202942.323    0  346 203029.000 202942.323  0.04%   270   60s
+    71    50 202947.179    0  284 203029.000 202947.179  0.04%   194   65s
+    76    55 202950.485   24  221 203029.000 202950.485  0.04%   323   70s
+
+Cutting planes:
+  Gomory: 43
+  Cover: 144
+  Implied bound: 3
+  Clique: 236
+  MIR: 35
+  Flow cover: 75
+  GUB cover: 18
+  Zero half: 18
+
+Explored 102 nodes (33653 simplex iterations) in 72.33 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 5: 203029 203084 203084 ... 500235
+Pool objective bound 203013
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.030290000000e+05, best bound 2.030130000000e+05, gap 0.0079%
+	MIPObjVal:	203029.0	runtime:	72.3359100818634	patientsNumber:	635	room Occupancy:	0.47685185185185186	OR Occupancy:	0.20037032138606004
+roomCost:	27760.0	genderPolicy:	1100.0	transferCost:	0.0	delayCost:	2120.0	overCrowdRisk:	29.0	overtime:	0.0	idleRoom:	22520.0	idleOR:	149500.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	25	Optimize a model with 9464 rows, 244122 columns and 1682609 nonzeros
+Variable types: 744 continuous, 243378 integer (241053 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 372667
+Presolve removed 1447 rows and 44900 columns
+Presolve time: 4.90s
+Presolved: 8017 rows, 199222 columns, 1300487 nonzeros
+Variable types: 0 continuous, 199222 integer (197179 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.5200050e+06   4.738680e+04   0.000000e+00      5s
+    2504    1.1271103e+05   0.000000e+00   0.000000e+00      5s
+
+Root relaxation: objective 1.127110e+05, 2504 iterations, 0.33 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 112711.026    0  166 372667.000 112711.026  69.8%     -    6s
+H    0     0                    119848.00000 112711.026  5.96%     -    6s
+H    0     0                    117239.00000 112711.026  3.86%     -    8s
+     0     0 117104.210    0  226 117239.000 117104.210  0.11%     -    9s
+     0     0 117158.019    0  173 117239.000 117158.019  0.07%     -   11s
+     0     0 117180.931    0  182 117239.000 117180.931  0.05%     -   11s
+     0     0 117180.931    0  103 117239.000 117180.931  0.05%     -   14s
+     0     0 117180.931    0  194 117239.000 117180.931  0.05%     -   14s
+     0     0 117181.497    0  243 117239.000 117181.497  0.05%     -   15s
+     0     0 117197.847    0  137 117239.000 117197.847  0.04%     -   15s
+     0     1 117198.040    0  137 117239.000 117198.040  0.03%     -   16s
+    53    38 117207.769    0   60 117239.000 117207.769  0.03%   146   20s
+H   59    39                    117234.00000 117207.769  0.02%   131   20s
+H   59    37                    117208.00000 117207.769  0.00%   131   20s
+
+Cutting planes:
+  Gomory: 14
+  Cover: 32
+  Clique: 57
+  MIR: 4
+  Flow cover: 21
+  Zero half: 8
+
+Explored 59 nodes (14590 simplex iterations) in 20.36 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 5: 117208 117234 117239 ... 372667
+Pool objective bound 117208
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.172080000000e+05, best bound 1.172080000000e+05, gap 0.0000%
+	MIPObjVal:	117208.0	runtime:	20.366695880889893	patientsNumber:	629	room Occupancy:	0.5756172839506173	OR Occupancy:	0.6149980161354318
+roomCost:	23560.0	genderPolicy:	950.0	transferCost:	0.0	delayCost:	1925.0	overCrowdRisk:	33.0	overtime:	0.0	idleRoom:	14740.0	idleOR:	76000.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	26	Optimize a model with 9161 rows, 198325 columns and 1208751 nonzeros
+Variable types: 720 continuous, 197605 integer (195355 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 263126
+Presolve removed 1477 rows and 35409 columns
+Presolve time: 2.63s
+Presolved: 7684 rows, 162916 columns, 932814 nonzeros
+Variable types: 0 continuous, 162916 integer (161007 binary)
+
+Root relaxation: objective 6.490354e+04, 1978 iterations, 0.29 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 64903.5415    0  116 263126.000 64903.5415  75.3%     -    3s
+H    0     0                    73651.000000 64903.5415  11.9%     -    3s
+H    0     0                    71028.000000 64903.5415  8.62%     -    4s
+H    0     0                    69101.000000 64903.5415  6.07%     -    4s
+     0     0 69003.3035    0  144 69101.0000 69003.3035  0.14%     -    5s
+     0     0 69073.0815    0  136 69101.0000 69073.0815  0.04%     -    5s
+     0     0 69083.2197    0   94 69101.0000 69083.2197  0.03%     -    6s
+     0     0 69083.2197    0   54 69101.0000 69083.2197  0.03%     -    7s
+     0     0 69095.4074    0   69 69101.0000 69095.4074  0.01%     -    7s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 13
+  Clique: 33
+  MIR: 15
+  GUB cover: 1
+  Zero half: 2
+
+Explored 0 nodes (5003 simplex iterations) in 7.54 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 4: 69101 71028 73651 263126 
+Pool objective bound 69096
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.910100000000e+04, best bound 6.909600000000e+04, gap 0.0072%
+	MIPObjVal:	69101.0	runtime:	7.540855884552002	patientsNumber:	611	room Occupancy:	0.6358024691358025	OR Occupancy:	0.5574659436582463
+roomCost:	18170.0	genderPolicy:	650.0	transferCost:	0.0	delayCost:	1720.0	overCrowdRisk:	21.0	overtime:	240.0	idleRoom:	8800.0	idleOR:	39500.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Day	27	Optimize a model with 8852 rows, 160947 columns and 851441 nonzeros
+Variable types: 696 continuous, 160251 integer (158076 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 138820
+Presolve removed 1504 rows and 27175 columns
+Presolve time: 1.86s
+Presolved: 7348 rows, 133772 columns, 638862 nonzeros
+Found heuristic solution: objective 69782.000000
+Variable types: 0 continuous, 133772 integer (131985 binary)
+
+Root relaxation: objective 1.905875e+04, 1435 iterations, 0.18 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 19058.7469    0   78 69782.0000 19058.7469  72.7%     -    2s
+H    0     0                    22944.000000 19058.7469  16.9%     -    2s
+H    0     0                    21653.000000 19058.7469  12.0%     -    4s
+     0     0 21539.5556    0  103 21653.0000 21539.5556  0.52%     -    4s
+     0     0 21542.1966    0  109 21653.0000 21542.1966  0.51%     -    6s
+     0     0 21564.8495    0   69 21653.0000 21564.8495  0.41%     -    7s
+     0     0 21564.8495    0   62 21653.0000 21564.8495  0.41%     -   10s
+     0     0 21564.8495    0   97 21653.0000 21564.8495  0.41%     -   10s
+     0     0 21564.8495    0   95 21653.0000 21564.8495  0.41%     -   10s
+     0     0 21569.7451    0  111 21653.0000 21569.7451  0.38%     -   10s
+     0     0 21572.9226    0  117 21653.0000 21572.9226  0.37%     -   10s
+     0     0 21578.3601    0  100 21653.0000 21578.3601  0.34%     -   10s
+     0     2 21580.6481    0   97 21653.0000 21580.6481  0.33%     -   11s
+
+Cutting planes:
+  Gomory: 24
+  Cover: 23
+  Clique: 42
+  MIR: 13
+  Flow cover: 26
+  GUB cover: 4
+  Zero half: 2
+
+Explored 11 nodes (6894 simplex iterations) in 13.03 seconds
+Thread count was 1 (of 16 available processors)
+
+Solution count 4: 21653 22944 69782 137630 
+Pool objective bound 21653
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.165300000000e+04, best bound 2.165300000000e+04, gap 0.0000%
+	MIPObjVal:	21653.0	runtime:	13.029508113861084	patientsNumber:	587	room Occupancy:	0.6990740740740741	OR Occupancy:	0.941674381695543
+roomCost:	11700.0	genderPolicy:	300.0	transferCost:	0.0	delayCost:	1040.0	overCrowdRisk:	13.0	overtime:	300.0	idleRoom:	3900.0	idleOR:	4400.0	eRoomIdle:	0.0	eORIdle:	0.0	roomU:	0.0	orU:	0.0
+Violations:	0	Total ObjVal:	160301	Runtime:	0.0	Room occupancy ratio:	0.43982777	OR occupancy ratio:	0.3175265
+The dynamic result in	./Results/FS2LowO/or_pas_dept6_long01_sol0.xml	violations:	0	total ObjVal:	160301	runtime:	1014.63	average_patient_number:	542

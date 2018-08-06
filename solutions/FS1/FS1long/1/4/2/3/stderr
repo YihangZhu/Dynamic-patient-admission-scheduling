@@ -1,0 +1,4 @@
+gurobi.GRBException: The model is infeasible!
+	at util.Gurobi.optimize(Gurobi.java:157)
+	at pas.algoritm.mp.PASMIP.solve(PASMIP.java:87)
+	at pas.algoritm.mp.RunMIP.main(RunMIP.java:65)

@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ Copyright (c) 1/22/18 4:27 PM
+  ~ Author: Yi-Hang Zhu
+  --><OrPasu_main_out instance="OR_PASU170424-104330">
+   <planning_horizon>
+      <start_day>2017-04-24</start_day>
+      <num_days>28</num_days>
+      <current_day>2017-04-25</current_day>
+   </planning_horizon>
+   <Values>
+      <Room_Costs FeaturesCost="4400" FixedGenderCost="50" PreferenceCost="2290" SpecialismCost="1720"/>
+      <RoomCost>8460</RoomCost>
+      <GenderPolicy>150</GenderPolicy>
+      <TransferCost>0</TransferCost>
+      <DelayCost>1620</DelayCost>
+      <OvercrowdRisk>29</OvercrowdRisk>
+      <IdleRoom>3680</IdleRoom>
+      <IdleOR>14100</IdleOR>
+      <OROORTO>360</OROORTO>
+      <Violation>0</Violation>
+      <Objective_Value>28399</Objective_Value>
+      <Runtime>13577</Runtime>
+   </Values>
+   <patients_scheduling>
+      <patient name="Pat_0">
+         <stay day="2017-04-27" room="R_8"/>
+         <stay day="2017-04-28" room="R_8"/>
+      </patient>
+      <patient name="Pat_1">
+         <stay day="2017-04-25" room="R_19"/>
+      </patient>
+      <patient name="Pat_2">
+         <stay day="2017-04-24" room="R_11"/>
+         <stay day="2017-04-25" room="R_11"/>
+         <stay day="2017-04-26" room="R_11"/>
+         <stay day="2017-04-27" room="R_11"/>
+         <stay day="2017-04-28" room="R_11"/>
+         <stay day="2017-04-29" room="R_11"/>
+         <stay day="2017-04-30" room="R_11"/>
+         <stay day="2017-05-01" room="R_11"/>
+         <stay day="2017-05-02" room="R_11"/>
+         <stay day="2017-05-03" room="R_11"/>
+         <stay day="2017-05-04" room="R_11"/>
+         <stay day="2017-05-05" room="R_11"/>
+         <stay day="2017-05-06" room="R_11"/>
+      </patient>
+      <patient name="Pat_3">
+         <stay day="2017-05-04" room="R_6"/>
+      </patient>
+      <patient name="Pat_4">
+         <stay day="2017-04-24" room="R_9"/>
+         <stay day="2017-04-25" room="R_9"/>
+         <stay day="2017-04-26" room="R_9"/>
+         <stay day="2017-04-27" room="R_9"/>
+      </patient>
+      <patient name="Pat_5">
+         <stay day="2017-04-25" room="R_8"/>
+         <stay day="2017-04-26" room="R_8"/>
+         <stay day="2017-04-27" room="R_8"/>
+         <stay day="2017-04-28" room="R_8"/>
+         <stay day="2017-04-29" room="R_8"/>
+         <stay day="2017-04-30" room="R_8"/>
+         <stay day="2017-05-01" room="R_8"/>
+         <stay day="2017-05-02" room="R_8"/>
+         <stay day="2017-05-03" room="R_8"/>
+         <stay day="2017-05-04" room="R_8"/>
+         <stay day="2017-05-05" room="R_8"/>
+         <stay day="2017-05-06" room="R_8"/>
+         <stay day="2017-05-07" room="R_8"/>
+      </patient>
+      <patient name="Pat_6">
+         <stay day="2017-05-08" room="R_0"/>
+         <stay day="2017-05-09" room="R_0"/>
+         <stay day="2017-05-10" room="R_0"/>
+         <stay day="2017-05-11" room="R_0"/>
+      </patient>
+      <patient name="Pat_7">
+         <stay day="2017-04-25" room="R_5"/>
+         <stay day="2017-04-26" room="R_5"/>
+         <stay day="2017-04-27" room="R_5"/>
+         <stay day="2017-04-28" room="R_5"/>
+         <stay day="2017-04-29" room="R_5"/>
+         <stay day="2017-04-30" room="R_5"/>
+         <stay day="2017-05-01" room="R_5"/>
+         <stay day="2017-05-02" room="R_5"/>
+         <stay day="2017-05-03" room="R_5"/>
+         <stay day="2017-05-04" room="R_5"/>
+      </patient>
+      <patient name="Pat_8">
+         <stay day="2017-05-03" room="R_2"/>
+         <stay day="2017-05-04" room="R_2"/>
+      </patient>
+      <patient name="Pat_9">
+         <stay day="2017-04-29" room="R_13"/>
+         <stay day="2017-04-30" room="R_13"/>
+      </patient>
+      <patient name="Pat_10">
+         <stay day="2017-04-25" room="R_18"/>
+      </patient>
+      <patient name="Pat_11">
+         <stay day="2017-05-03" room="R_2"/>
+         <stay day="2017-05-04" room="R_2"/>
+         <stay day="2017-05-05" room="R_2"/>
+         <stay day="2017-05-06" room="R_2"/>
+         <stay day="2017-05-07" room="R_2"/>
+      </patient>
+      <patient name="Pat_12">
+         <stay day="2017-04-27" room="R_19"/>
+      </patient>
+      <patient name="Pat_13">
+         <stay day="2017-05-01" room="R_19"/>
+      </patient>
+      <patient name="Pat_14">
+         <stay day="2017-05-08" room="R_0"/>
+         <stay day="2017-05-09" room="R_0"/>
+         <stay day="2017-05-10" room="R_0"/>
+         <stay day="2017-05-11" room="R_0"/>
+      </patient>
+      <patient name="Pat_15">
+         <stay day="2017-04-28" room="R_6"/>
+      </patient>
+      <patient name="Pat_16">
+         <stay day="2017-05-01" room="R_4"/>
+         <stay day="2017-05-02" room="R_4"/>
+         <stay day="2017-05-03" room="R_4"/>
+         <stay day="2017-05-04" room="R_4"/>
+         <stay day="2017-05-05" room="R_4"/>
+         <stay day="2017-05-06" room="R_4"/>
+      </patient>
+      <patient name="Pat_17">
+         <stay day="2017-05-01" room="R_10"/>
+         <stay day="2017-05-02" room="R_10"/>
+         <stay day="2017-05-03" room="R_10"/>
+         <stay day="2017-05-04" room="R_10"/>
+         <stay day="2017-05-05" room="R_10"/>
+         <stay day="2017-05-06" room="R_10"/>
+         <stay day="2017-05-07" room="R_10"/>
+      </patient>
+      <patient name="Pat_18">
+         <stay day="2017-04-26" room="R_0"/>
+         <stay day="2017-04-27" room="R_0"/>
+         <stay day="2017-04-28" room="R_0"/>
+         <stay day="2017-04-29" room="R_0"/>
+      </patient>
+      <patient name="Pat_19">
+         <stay day="2017-04-24" room="R_18"/>
+      </patient>
+      <patient name="Pat_20">
+         <stay day="2017-04-25" room="R_10"/>
+         <stay day="2017-04-26" room="R_10"/>
+         <stay day="2017-04-27" room="R_10"/>
+         <stay day="2017-04-28" room="R_10"/>
+         <stay day="2017-04-29" room="R_10"/>
+         <stay day="2017-04-30" room="R_10"/>
+         <stay day="2017-05-01" room="R_10"/>
+         <stay day="2017-05-02" room="R_10"/>
+         <stay day="2017-05-03" room="R_10"/>
+         <stay day="2017-05-04" room="R_10"/>
+         <stay day="2017-05-05" room="R_10"/>
+         <stay day="2017-05-06" room="R_10"/>
+         <stay day="2017-05-07" room="R_10"/>
+         <stay day="2017-05-08" room="R_10"/>
+      </patient>
+      <patient name="Pat_21">
+         <stay day="2017-04-27" room="R_19"/>
+         <stay day="2017-04-28" room="R_19"/>
+         <stay day="2017-04-29" room="R_19"/>
+         <stay day="2017-04-30" room="R_19"/>
+         <stay day="2017-05-01" room="R_19"/>
+         <stay day="2017-05-02" room="R_19"/>
+         <stay day="2017-05-03" room="R_19"/>
+         <stay day="2017-05-04" room="R_19"/>
+         <stay day="2017-05-05" room="R_19"/>
+         <stay day="2017-05-06" room="R_19"/>
+         <stay day="2017-05-07" room="R_19"/>
+      </patient>
+      <patient name="Pat_22">
+         <stay day="2017-05-02" room="R_16"/>
+         <stay day="2017-05-03" room="R_16"/>
+         <stay day="2017-05-04" room="R_16"/>
+         <stay day="2017-05-05" room="R_16"/>
+      </patient>
+      <patient name="Pat_23">
+         <stay day="2017-04-27" room="R_1"/>
+         <stay day="2017-04-28" room="R_1"/>
+         <stay day="2017-04-29" room="R_1"/>
+         <stay day="2017-04-30" room="R_1"/>
+         <stay day="2017-05-01" room="R_1"/>
+         <stay day="2017-05-02" room="R_1"/>
+         <stay day="2017-05-03" room="R_1"/>
+         <stay day="2017-05-04" room="R_1"/>
+         <stay day="2017-05-05" room="R_1"/>
+         <stay day="2017-05-06" room="R_1"/>
+         <stay day="2017-05-07" room="R_1"/>
+      </patient>
+      <patient name="Pat_24">
+         <stay day="2017-05-18" room="R_18"/>
+         <stay day="2017-05-19" room="R_18"/>
+         <stay day="2017-05-20" room="R_18"/>
+         <stay day="2017-05-21" room="R_18"/>
+      </patient>
+      <patient name="Pat_25">
+         <stay day="2017-04-25" room="R_6"/>
+         <stay day="2017-04-26" room="R_6"/>
+         <stay day="2017-04-27" room="R_6"/>
+         <stay day="2017-04-28" room="R_6"/>
+         <stay day="2017-04-29" room="R_6"/>
+         <stay day="2017-04-30" room="R_6"/>
+         <stay day="2017-05-01" room="R_6"/>
+         <stay day="2017-05-02" room="R_6"/>
+         <stay day="2017-05-03" room="R_6"/>
+         <stay day="2017-05-04" room="R_6"/>
+         <stay day="2017-05-05" room="R_6"/>
+         <stay day="2017-05-06" room="R_6"/>
+         <stay day="2017-05-07" room="R_6"/>
+      </patient>
+      <patient name="Pat_26">
+         <stay day="2017-04-28" room="R_18"/>
+      </patient>
+      <patient name="Pat_27">
+         <stay day="2017-05-02" room="R_16"/>
+         <stay day="2017-05-03" room="R_16"/>
+         <stay day="2017-05-04" room="R_16"/>
+         <stay day="2017-05-05" room="R_16"/>
+         <stay day="2017-05-06" room="R_16"/>
+         <stay day="2017-05-07" room="R_16"/>
+      </patient>
+      <patient name="Pat_28">
+         <stay day="2017-04-28" room="R_19"/>
+      </patient>
+      <patient name="Pat_29">
+         <stay day="2017-04-25" room="R_6"/>
+         <stay day="2017-04-26" room="R_6"/>
+         <stay day="2017-04-27" room="R_6"/>
+         <stay day="2017-04-28" room="R_6"/>
+         <stay day="2017-04-29" room="R_6"/>
+         <stay day="2017-04-30" room="R_6"/>
+         <stay day="2017-05-01" room="R_6"/>
+         <stay day="2017-05-02" room="R_6"/>
+         <stay day="2017-05-03" room="R_6"/>
+         <stay day="2017-05-04" room="R_6"/>
+         <stay day="2017-05-05" room="R_6"/>
+         <stay day="2017-05-06" room="R_6"/>
+         <stay day="2017-05-07" room="R_6"/>
+      </patient>
+      <patient name="Pat_30">
+         <stay day="2017-04-27" room="R_7"/>
+         <stay day="2017-04-28" room="R_7"/>
+         <stay day="2017-04-29" room="R_7"/>
+         <stay day="2017-04-30" room="R_7"/>
+         <stay day="2017-05-01" room="R_7"/>
+         <stay day="2017-05-02" room="R_7"/>
+      </patient>
+      <patient name="Pat_31">
+         <stay day="2017-05-08" room="R_9"/>
+         <stay day="2017-05-09" room="R_9"/>
+         <stay day="2017-05-10" room="R_9"/>
+         <stay day="2017-05-11" room="R_9"/>
+      </patient>
+      <patient name="Pat_32">
+         <stay day="2017-04-26" room="R_10"/>
+         <stay day="2017-04-27" room="R_10"/>
+         <stay day="2017-04-28" room="R_10"/>
+         <stay day="2017-04-29" room="R_10"/>
+         <stay day="2017-04-30" room="R_10"/>
+         <stay day="2017-05-01" room="R_10"/>
+         <stay day="2017-05-02" room="R_10"/>
+         <stay day="2017-05-03" room="R_10"/>
+         <stay day="2017-05-04" room="R_10"/>
+         <stay day="2017-05-05" room="R_10"/>
+         <stay day="2017-05-06" room="R_10"/>
+         <stay day="2017-05-07" room="R_10"/>
+         <stay day="2017-05-08" room="R_10"/>
+      </patient>
+      <patient name="Pat_33">
+         <stay day="2017-05-08" room="R_1"/>
+         <stay day="2017-05-09" room="R_1"/>
+         <stay day="2017-05-10" room="R_1"/>
+         <stay day="2017-05-11" room="R_1"/>
+         <stay day="2017-05-12" room="R_1"/>
+      </patient>
+      <patient name="Pat_34">
+         <stay day="2017-04-25" room="R_0"/>
+         <stay day="2017-04-26" room="R_0"/>
+         <stay day="2017-04-27" room="R_0"/>
+         <stay day="2017-04-28" room="R_0"/>
+      </patient>
+      <patient name="Pat_35">
+         <stay day="2017-04-29" room="R_19"/>
+         <stay day="2017-04-30" room="R_19"/>
+      </patient>
+      <patient name="Pat_36">
+         <stay day="2017-05-13" room="R_6"/>
+         <stay day="2017-05-14" room="R_6"/>
+         <stay day="2017-05-15" room="R_6"/>
+         <stay day="2017-05-16" room="R_6"/>
+         <stay day="2017-05-17" room="R_6"/>
+         <stay day="2017-05-18" room="R_6"/>
+      </patient>
+      <patient name="Pat_37">
+         <stay day="2017-05-13" room="R_19"/>
+         <stay day="2017-05-14" room="R_19"/>
+         <stay day="2017-05-15" room="R_19"/>
+         <stay day="2017-05-16" room="R_19"/>
+         <stay day="2017-05-17" room="R_19"/>
+         <stay day="2017-05-18" room="R_19"/>
+      </patient>
+      <patient name="Pat_38">
+         <stay day="2017-05-01" room="R_5"/>
+         <stay day="2017-05-02" room="R_5"/>
+      </patient>
+      <patient name="Pat_39">
+         <stay day="2017-05-01" room="R_10"/>
+         <stay day="2017-05-02" room="R_10"/>
+         <stay day="2017-05-03" room="R_10"/>
+      </patient>
+      <patient name="Pat_40">
+         <stay day="2017-05-01" room="R_3"/>
+         <stay day="2017-05-02" room="R_3"/>
+         <stay day="2017-05-03" room="R_3"/>
+         <stay day="2017-05-04" room="R_3"/>
+         <stay day="2017-05-05" room="R_3"/>
+      </patient>
+      <patient name="Pat_41">
+         <stay day="2017-04-28" room="R_15"/>
+      </patient>
+      <patient name="Pat_42">
+         <stay day="2017-05-03" room="R_6"/>
+      </patient>
+      <patient name="Pat_43">
+         <stay day="2017-04-27" room="R_1"/>
+         <stay day="2017-04-28" room="R_1"/>
+         <stay day="2017-04-29" room="R_1"/>
+         <stay day="2017-04-30" room="R_1"/>
+         <stay day="2017-05-01" room="R_1"/>
+         <stay day="2017-05-02" room="R_1"/>
+      </patient>
+      <patient name="Pat_44">
+         <stay day="2017-05-03" room="R_15"/>
+      </patient>
+      <patient name="Pat_45">
+         <stay day="2017-05-01" room="R_6"/>
+      </patient>
+      <patient name="Pat_46">
+         <stay day="2017-05-04" room="R_0"/>
+         <stay day="2017-05-05" room="R_0"/>
+         <stay day="2017-05-06" room="R_0"/>
+         <stay day="2017-05-07" room="R_0"/>
+         <stay day="2017-05-08" room="R_0"/>
+      </patient>
+      <patient name="Pat_47">
+         <stay day="2017-05-03" room="R_2"/>
+         <stay day="2017-05-04" room="R_2"/>
+         <stay day="2017-05-05" room="R_2"/>
+         <stay day="2017-05-06" room="R_2"/>
+         <stay day="2017-05-07" room="R_2"/>
+      </patient>
+      <patient name="Pat_48">
+         <stay day="2017-04-28" room="R_12"/>
+         <stay day="2017-04-29" room="R_12"/>
+         <stay day="2017-04-30" room="R_12"/>
+         <stay day="2017-05-01" room="R_12"/>
+      </patient>
+      <patient name="Pat_49">
+         <stay day="2017-04-27" room="R_13"/>
+         <stay day="2017-04-28" room="R_13"/>
+      </patient>
+      <patient name="Pat_50">
+         <stay day="2017-04-27" room="R_18"/>
+      </patient>
+      <patient name="Pat_51">
+         <stay day="2017-04-28" room="R_0"/>
+         <stay day="2017-04-29" room="R_0"/>
+         <stay day="2017-04-30" room="R_0"/>
+         <stay day="2017-05-01" room="R_0"/>
+         <stay day="2017-05-02" room="R_0"/>
+         <stay day="2017-05-03" room="R_0"/>
+      </patient>
+      <patient name="Pat_52">
+         <stay day="2017-05-03" room="R_10"/>
+         <stay day="2017-05-04" room="R_10"/>
+         <stay day="2017-05-05" room="R_10"/>
+         <stay day="2017-05-06" room="R_10"/>
+         <stay day="2017-05-07" room="R_10"/>
+      </patient>
+      <patient name="Pat_53">
+         <stay day="2017-05-03" room="R_16"/>
+         <stay day="2017-05-04" room="R_16"/>
+         <stay day="2017-05-05" room="R_16"/>
+         <stay day="2017-05-06" room="R_16"/>
+         <stay day="2017-05-07" room="R_16"/>
+      </patient>
+      <patient name="Pat_54">
+         <stay day="2017-05-08" room="R_0"/>
+         <stay day="2017-05-09" room="R_0"/>
+         <stay day="2017-05-10" room="R_0"/>
+      </patient>
+      <patient name="Pat_55">
+         <stay day="2017-05-04" room="R_4"/>
+         <stay day="2017-05-05" room="R_4"/>
+         <stay day="2017-05-06" room="R_4"/>
+         <stay day="2017-05-07" room="R_4"/>
+         <stay day="2017-05-08" room="R_4"/>
+      </patient>
+      <patient name="Pat_56">
+         <stay day="2017-04-27" room="R_0"/>
+         <stay day="2017-04-28" room="R_0"/>
+         <stay day="2017-04-29" room="R_0"/>
+      </patient>
+      <patient name="Pat_57">
+         <stay day="2017-05-09" room="R_10"/>
+         <stay day="2017-05-10" room="R_10"/>
+         <stay day="2017-05-11" room="R_10"/>
+         <stay day="2017-05-12" room="R_10"/>
+         <stay day="2017-05-13" room="R_10"/>
+      </patient>
+      <patient name="Pat_58">
+         <stay day="2017-05-02" room="R_16"/>
+      </patient>
+      <patient name="Pat_59">
+         <stay day="2017-05-01" room="R_6"/>
+      </patient>
+      <patient name="Pat_60">
+         <stay day="2017-04-27" room="R_4"/>
+         <stay day="2017-04-28" room="R_4"/>
+         <stay day="2017-04-29" room="R_4"/>
+      </patient>
+      <patient name="Pat_61">
+         <stay day="2017-05-06" room="R_4"/>
+         <stay day="2017-05-07" room="R_4"/>
+         <stay day="2017-05-08" room="R_4"/>
+      </patient>
+      <patient name="Pat_62">
+         <stay day="2017-04-28" room="R_9"/>
+         <stay day="2017-04-29" room="R_9"/>
+         <stay day="2017-04-30" room="R_9"/>
+         <stay day="2017-05-01" room="R_9"/>
+      </patient>
+      <patient name="Pat_63">
+         <stay day="2017-05-02" room="R_0"/>
+         <stay day="2017-05-03" room="R_0"/>
+         <stay day="2017-05-04" room="R_0"/>
+      </patient>
+      <patient name="Pat_64">
+         <stay day="2017-05-04" room="R_10"/>
+         <stay day="2017-05-05" room="R_10"/>
+         <stay day="2017-05-06" room="R_10"/>
+         <stay day="2017-05-07" room="R_10"/>
+         <stay day="2017-05-08" room="R_10"/>
+      </patient>
+      <patient name="Pat_65">
+         <stay day="2017-05-10" room="R_19"/>
+         <stay day="2017-05-11" room="R_19"/>
+      </patient>
+      <patient name="Pat_66">
+         <stay day="2017-04-28" room="R_14"/>
+         <stay day="2017-04-29" room="R_14"/>
+         <stay day="2017-04-30" room="R_14"/>
+         <stay day="2017-05-01" room="R_14"/>
+         <stay day="2017-05-02" room="R_14"/>
+         <stay day="2017-05-03" room="R_14"/>
+      </patient>
+      <patient name="Pat_67">
+         <stay day="2017-05-04" room="R_14"/>
+         <stay day="2017-05-05" room="R_14"/>
+         <stay day="2017-05-06" room="R_14"/>
+         <stay day="2017-05-07" room="R_14"/>
+         <stay day="2017-05-08" room="R_14"/>
+      </patient>
+      <patient name="Pat_68">
+         <stay day="2017-05-02" room="R_19"/>
+      </patient>
+      <patient name="Pat_69">
+         <stay day="2017-05-03" room="R_5"/>
+         <stay day="2017-05-04" room="R_5"/>
+         <stay day="2017-05-05" room="R_5"/>
+         <stay day="2017-05-06" room="R_5"/>
+         <stay day="2017-05-07" room="R_5"/>
+      </patient>
+      <patient name="Pat_70">
+         <stay day="2017-05-01" room="R_4"/>
+         <stay day="2017-05-02" room="R_4"/>
+         <stay day="2017-05-03" room="R_4"/>
+         <stay day="2017-05-04" room="R_4"/>
+      </patient>
+      <patient name="Pat_71">
+         <stay day="2017-05-03" room="R_0"/>
+         <stay day="2017-05-04" room="R_0"/>
+         <stay day="2017-05-05" room="R_0"/>
+         <stay day="2017-05-06" room="R_0"/>
+         <stay day="2017-05-07" room="R_0"/>
+      </patient>
+      <patient name="Pat_72">
+         <stay day="2017-05-01" room="R_2"/>
+         <stay day="2017-05-02" room="R_2"/>
+         <stay day="2017-05-03" room="R_2"/>
+         <stay day="2017-05-04" room="R_2"/>
+         <stay day="2017-05-05" room="R_2"/>
+         <stay day="2017-05-06" room="R_2"/>
+         <stay day="2017-05-07" room="R_2"/>
+      </patient>
+      <patient name="Pat_73">
+         <stay day="2017-05-09" room="R_0"/>
+         <stay day="2017-05-10" room="R_0"/>
+         <stay day="2017-05-11" room="R_0"/>
+      </patient>
+      <patient name="Pat_74">
+         <stay day="2017-05-14" room="R_6"/>
+         <stay day="2017-05-15" room="R_6"/>
+         <stay day="2017-05-16" room="R_6"/>
+         <stay day="2017-05-17" room="R_6"/>
+         <stay day="2017-05-18" room="R_6"/>
+      </patient>
+      <patient name="Pat_75">
+         <stay day="2017-05-12" room="R_6"/>
+         <stay day="2017-05-13" room="R_6"/>
+         <stay day="2017-05-14" room="R_6"/>
+         <stay day="2017-05-15" room="R_6"/>
+         <stay day="2017-05-16" room="R_6"/>
+      </patient>
+      <patient name="Pat_76">
+         <stay day="2017-05-04" room="R_4"/>
+         <stay day="2017-05-05" room="R_4"/>
+         <stay day="2017-05-06" room="R_4"/>
+         <stay day="2017-05-07" room="R_4"/>
+      </patient>
+      <patient name="Pat_77">
+         <stay day="2017-05-03" room="R_17"/>
+         <stay day="2017-05-04" room="R_17"/>
+         <stay day="2017-05-05" room="R_17"/>
+         <stay day="2017-05-06" room="R_17"/>
+      </patient>
+      <patient name="Pat_78">
+         <stay day="2017-05-08" room="R_5"/>
+         <stay day="2017-05-09" room="R_5"/>
+         <stay day="2017-05-10" room="R_5"/>
+         <stay day="2017-05-11" room="R_5"/>
+         <stay day="2017-05-12" room="R_5"/>
+         <stay day="2017-05-13" room="R_5"/>
+         <stay day="2017-05-14" room="R_5"/>
+      </patient>
+      <patient name="Pat_79">
+         <stay day="2017-05-04" room="R_16"/>
+         <stay day="2017-05-05" room="R_16"/>
+         <stay day="2017-05-06" room="R_16"/>
+         <stay day="2017-05-07" room="R_16"/>
+      </patient>
+      <patient name="Pat_80">
+         <stay day="2017-05-13" room="R_6"/>
+         <stay day="2017-05-14" room="R_6"/>
+         <stay day="2017-05-15" room="R_6"/>
+         <stay day="2017-05-16" room="R_6"/>
+         <stay day="2017-05-17" room="R_6"/>
+      </patient>
+      <patient name="Pat_81">
+         <stay day="2017-05-11" room="R_4"/>
+         <stay day="2017-05-12" room="R_4"/>
+         <stay day="2017-05-13" room="R_4"/>
+      </patient>
+      <patient name="Pat_82">
+         <stay day="2017-05-12" room="R_19"/>
+         <stay day="2017-05-13" room="R_19"/>
+      </patient>
+      <patient name="Pat_83">
+         <stay day="2017-05-15" room="R_5"/>
+         <stay day="2017-05-16" room="R_5"/>
+         <stay day="2017-05-17" room="R_5"/>
+         <stay day="2017-05-18" room="R_5"/>
+         <stay day="2017-05-19" room="R_5"/>
+      </patient>
+      <patient name="Pat_84">
+         <stay day="2017-05-02" room="R_6"/>
+      </patient>
+      <patient name="Pat_85">
+         <stay day="2017-05-01" room="R_10"/>
+         <stay day="2017-05-02" room="R_10"/>
+         <stay day="2017-05-03" room="R_10"/>
+      </patient>
+      <patient name="Pat_86">
+         <stay day="2017-05-04" room="R_15"/>
+         <stay day="2017-05-05" room="R_15"/>
+      </patient>
+      <patient name="Pat_87">
+         <stay day="2017-05-07" room="R_15"/>
+      </patient>
+      <patient name="Pat_88">
+         <stay day="2017-05-07" room="R_15"/>
+      </patient>
+      <patient name="Pat_89">
+         <stay day="2017-05-08" room="R_6"/>
+         <stay day="2017-05-09" room="R_6"/>
+         <stay day="2017-05-10" room="R_6"/>
+         <stay day="2017-05-11" room="R_6"/>
+      </patient>
+      <patient name="Pat_90">
+         <stay day="2017-05-02" room="R_4"/>
+         <stay day="2017-05-03" room="R_4"/>
+         <stay day="2017-05-04" room="R_4"/>
+         <stay day="2017-05-05" room="R_4"/>
+      </patient>
+      <patient name="Pat_91">
+         <stay day="2017-05-09" room="R_11"/>
+         <stay day="2017-05-10" room="R_11"/>
+      </patient>
+      <patient name="Pat_92">
+         <stay day="2017-05-09" room="R_10"/>
+         <stay day="2017-05-10" room="R_10"/>
+         <stay day="2017-05-11" room="R_10"/>
+         <stay day="2017-05-12" room="R_10"/>
+         <stay day="2017-05-13" room="R_10"/>
+         <stay day="2017-05-14" room="R_10"/>
+         <stay day="2017-05-15" room="R_10"/>
+      </patient>
+      <patient name="Pat_93">
+         <stay day="2017-05-09" room="R_14"/>
+         <stay day="2017-05-10" room="R_14"/>
+         <stay day="2017-05-11" room="R_14"/>
+         <stay day="2017-05-12" room="R_14"/>
+      </patient>
+      <patient name="Pat_94">
+         <stay day="2017-05-03" room="R_8"/>
+      </patient>
+      <patient name="Pat_95">
+         <stay day="2017-04-30" room="R_10"/>
+         <stay day="2017-05-01" room="R_10"/>
+      </patient>
+      <patient name="Pat_96">
+         <stay day="2017-05-02" room="R_6"/>
+      </patient>
+      <patient name="Pat_97">
+         <stay day="2017-05-10" room="R_6"/>
+         <stay day="2017-05-11" room="R_6"/>
+         <stay day="2017-05-12" room="R_6"/>
+         <stay day="2017-05-13" room="R_6"/>
+      </patient>
+      <patient name="Pat_98">
+         <stay day="2017-05-09" room="R_6"/>
+         <stay day="2017-05-10" room="R_6"/>
+         <stay day="2017-05-11" room="R_6"/>
+         <stay day="2017-05-12" room="R_6"/>
+      </patient>
+      <patient name="Pat_99">
+         <stay day="2017-05-05" room="R_2"/>
+         <stay day="2017-05-06" room="R_2"/>
+         <stay day="2017-05-07" room="R_2"/>
+      </patient>
+      <patient name="Pat_100">
+         <stay day="2017-05-04" room="R_17"/>
+         <stay day="2017-05-05" room="R_17"/>
+         <stay day="2017-05-06" room="R_17"/>
+         <stay day="2017-05-07" room="R_17"/>
+         <stay day="2017-05-08" room="R_17"/>
+         <stay day="2017-05-09" room="R_17"/>
+         <stay day="2017-05-10" room="R_17"/>
+      </patient>
+      <patient name="Pat_101">
+         <stay day="2017-05-14" room="R_19"/>
+         <stay day="2017-05-15" room="R_19"/>
+         <stay day="2017-05-16" room="R_19"/>
+         <stay day="2017-05-17" room="R_19"/>
+         <stay day="2017-05-18" room="R_19"/>
+         <stay day="2017-05-19" room="R_19"/>
+         <stay day="2017-05-20" room="R_19"/>
+      </patient>
+      <patient name="Pat_102">
+         <stay day="2017-05-10" room="R_18"/>
+         <stay day="2017-05-11" room="R_18"/>
+         <stay day="2017-05-12" room="R_18"/>
+         <stay day="2017-05-13" room="R_18"/>
+      </patient>
+      <patient name="Pat_103">
+         <stay day="2017-05-02" room="R_12"/>
+      </patient>
+      <patient name="Pat_104">
+         <stay day="2017-05-03" room="R_12"/>
+      </patient>
+      <patient name="Pat_105">
+         <stay day="2017-05-01" room="R_15"/>
+      </patient>
+      <patient name="Pat_106">
+         <stay day="2017-05-08" room="R_17"/>
+         <stay day="2017-05-09" room="R_17"/>
+         <stay day="2017-05-10" room="R_17"/>
+         <stay day="2017-05-11" room="R_17"/>
+         <stay day="2017-05-12" room="R_17"/>
+         <stay day="2017-05-13" room="R_17"/>
+      </patient>
+      <patient name="Pat_107">
+         <stay day="2017-05-07" room="R_4"/>
+         <stay day="2017-05-08" room="R_4"/>
+         <stay day="2017-05-09" room="R_4"/>
+      </patient>
+      <patient name="Pat_108">
+         <stay day="2017-05-01" room="R_15"/>
+      </patient>
+      <patient name="Pat_109">
+         <stay day="2017-05-03" room="R_6"/>
+      </patient>
+      <patient name="Pat_110">
+         <stay day="2017-05-01" room="R_18"/>
+         <stay day="2017-05-02" room="R_18"/>
+         <stay day="2017-05-03" room="R_18"/>
+         <stay day="2017-05-04" room="R_18"/>
+      </patient>
+      <patient name="Pat_111">
+         <stay day="2017-05-03" room="R_15"/>
+      </patient>
+      <patient name="Pat_112">
+         <stay day="2017-05-04" room="R_15"/>
+         <stay day="2017-05-05" room="R_15"/>
+      </patient>
+      <patient name="Pat_113">
+         <stay day="2017-05-03" room="R_15"/>
+      </patient>
+      <patient name="Pat_114">
+         <stay day="2017-05-05" room="R_7"/>
+         <stay day="2017-05-06" room="R_7"/>
+         <stay day="2017-05-07" room="R_7"/>
+      </patient>
+      <patient name="Pat_115">
+         <stay day="2017-05-02" room="R_9"/>
+         <stay day="2017-05-03" room="R_9"/>
+         <stay day="2017-05-04" room="R_9"/>
+         <stay day="2017-05-05" room="R_9"/>
+         <stay day="2017-05-06" room="R_9"/>
+         <stay day="2017-05-07" room="R_9"/>
+      </patient>
+      <patient name="Pat_116">
+         <stay day="2017-05-04" room="R_15"/>
+      </patient>
+      <patient name="Pat_117">
+         <stay day="2017-05-05" room="R_19"/>
+         <stay day="2017-05-06" room="R_19"/>
+      </patient>
+      <patient name="Pat_118">
+         <stay day="2017-05-04" room="R_4"/>
+         <stay day="2017-05-05" room="R_4"/>
+         <stay day="2017-05-06" room="R_4"/>
+         <stay day="2017-05-07" room="R_4"/>
+      </patient>
+      <patient name="Pat_119">
+         <stay day="2017-05-03" room="R_19"/>
+      </patient>
+      <patient name="Pat_120">
+         <stay day="2017-05-02" room="R_10"/>
+      </patient>
+      <patient name="Pat_121">
+         <stay day="2017-05-06" room="R_3"/>
+         <stay day="2017-05-07" room="R_3"/>
+         <stay day="2017-05-08" room="R_3"/>
+      </patient>
+      <patient name="Pat_122">
+         <stay day="2017-05-12" room="R_9"/>
+         <stay day="2017-05-13" room="R_9"/>
+         <stay day="2017-05-14" room="R_9"/>
+      </patient>
+      <patient name="Pat_123">
+         <stay day="2017-05-07" room="R_11"/>
+         <stay day="2017-05-08" room="R_11"/>
+      </patient>
+      <patient name="Pat_124">
+         <stay day="2017-05-04" room="R_16"/>
+         <stay day="2017-05-05" room="R_16"/>
+         <stay day="2017-05-06" room="R_16"/>
+         <stay day="2017-05-07" room="R_16"/>
+      </patient>
+      <patient name="Pat_125">
+         <stay day="2017-05-11" room="R_12"/>
+         <stay day="2017-05-12" room="R_12"/>
+         <stay day="2017-05-13" room="R_12"/>
+         <stay day="2017-05-14" room="R_12"/>
+      </patient>
+      <patient name="Pat_126">
+         <stay day="2017-05-09" room="R_19"/>
+         <stay day="2017-05-10" room="R_19"/>
+      </patient>
+      <patient name="Pat_127">
+         <stay day="2017-05-05" room="R_15"/>
+         <stay day="2017-05-06" room="R_15"/>
+      </patient>
+      <patient name="Pat_128">
+         <stay day="2017-05-03" room="R_15"/>
+      </patient>
+      <patient name="Pat_129">
+         <stay day="2017-05-08" room="R_1"/>
+         <stay day="2017-05-09" room="R_1"/>
+         <stay day="2017-05-10" room="R_1"/>
+         <stay day="2017-05-11" room="R_1"/>
+         <stay day="2017-05-12" room="R_1"/>
+      </patient>
+      <patient name="Pat_130">
+         <stay day="2017-05-03" room="R_13"/>
+      </patient>
+      <patient name="Pat_131">
+         <stay day="2017-05-03" room="R_0"/>
+         <stay day="2017-05-04" room="R_0"/>
+         <stay day="2017-05-05" room="R_0"/>
+         <stay day="2017-05-06" room="R_0"/>
+         <stay day="2017-05-07" room="R_0"/>
+      </patient>
+      <patient name="Pat_132">
+         <stay day="2017-05-03" room="R_1"/>
+         <stay day="2017-05-04" room="R_1"/>
+      </patient>
+      <patient name="Pat_133">
+         <stay day="2017-05-06" room="R_18"/>
+      </patient>
+      <patient name="Pat_134">
+         <stay day="2017-05-09" room="R_6"/>
+         <stay day="2017-05-10" room="R_6"/>
+         <stay day="2017-05-11" room="R_6"/>
+         <stay day="2017-05-12" room="R_6"/>
+      </patient>
+      <patient name="Pat_135">
+         <stay day="2017-05-05" room="R_1"/>
+         <stay day="2017-05-06" room="R_1"/>
+         <stay day="2017-05-07" room="R_1"/>
+      </patient>
+      <patient name="Pat_136">
+         <stay day="2017-05-06" room="R_6"/>
+      </patient>
+      <patient name="Pat_137">
+         <stay day="2017-05-08" room="R_4"/>
+         <stay day="2017-05-09" room="R_4"/>
+         <stay day="2017-05-10" room="R_4"/>
+      </patient>
+      <patient name="Pat_138">
+         <stay day="2017-05-04" room="R_19"/>
+      </patient>
+      <patient name="Pat_139">
+         <stay day="2017-05-07" room="R_17"/>
+      </patient>
+      <patient name="Pat_140">
+         <stay day="2017-05-04" room="R_6"/>
+      </patient>
+      <patient name="Pat_141">
+         <stay day="2017-05-05" room="R_4"/>
+         <stay day="2017-05-06" room="R_4"/>
+         <stay day="2017-05-07" room="R_4"/>
+      </patient>
+      <patient name="Pat_142">
+         <stay day="2017-05-07" room="R_15"/>
+         <stay day="2017-05-08" room="R_15"/>
+      </patient>
+      <patient name="Pat_143">
+         <stay day="2017-05-05" room="R_15"/>
+         <stay day="2017-05-06" room="R_15"/>
+      </patient>
+      <patient name="Pat_144">
+         <stay day="2017-05-14" room="R_18"/>
+         <stay day="2017-05-15" room="R_18"/>
+         <stay day="2017-05-16" room="R_18"/>
+         <stay day="2017-05-17" room="R_18"/>
+      </patient>
+      <patient name="Pat_145">
+         <stay day="2017-05-11" room="R_19"/>
+         <stay day="2017-05-12" room="R_19"/>
+      </patient>
+      <patient name="Pat_146">
+         <stay day="2017-05-04" room="R_12"/>
+         <stay day="2017-05-05" room="R_12"/>
+         <stay day="2017-05-06" room="R_12"/>
+         <stay day="2017-05-07" room="R_12"/>
+      </patient>
+      <patient name="Pat_147">
+         <stay day="2017-05-04" room="R_2"/>
+         <stay day="2017-05-05" room="R_2"/>
+         <stay day="2017-05-06" room="R_2"/>
+         <stay day="2017-05-07" room="R_2"/>
+      </patient>
+      <patient name="Pat_148">
+         <stay day="2017-05-05" room="R_15"/>
+         <stay day="2017-05-06" room="R_15"/>
+      </patient>
+      <patient name="Pat_149">
+         <stay day="2017-05-04" room="R_8"/>
+      </patient>
+      <patient name="Pat_150">
+         <stay day="2017-05-05" room="R_5"/>
+         <stay day="2017-05-06" room="R_5"/>
+         <stay day="2017-05-07" room="R_5"/>
+      </patient>
+      <patient name="Pat_151">
+         <stay day="2017-05-09" room="R_5"/>
+         <stay day="2017-05-10" room="R_5"/>
+      </patient>
+      <patient name="Pat_152">
+         <stay day="2017-05-05" room="R_18"/>
+      </patient>
+      <patient name="Pat_153">
+         <stay day="2017-05-05" room="R_0"/>
+         <stay day="2017-05-06" room="R_0"/>
+         <stay day="2017-05-07" room="R_0"/>
+      </patient>
+      <patient name="Pat_154">
+         <stay day="2017-05-05" room="R_8"/>
+         <stay day="2017-05-06" room="R_8"/>
+         <stay day="2017-05-07" room="R_8"/>
+      </patient>
+      <patient name="Pat_155">
+         <stay day="2017-05-09" room="R_10"/>
+         <stay day="2017-05-10" room="R_10"/>
+         <stay day="2017-05-11" room="R_10"/>
+      </patient>
+      <patient name="Pat_156">
+         <stay day="2017-05-05" room="R_6"/>
+         <stay day="2017-05-06" room="R_6"/>
+         <stay day="2017-05-07" room="R_6"/>
+      </patient>
+      <patient name="Pat_157">
+         <stay day="2017-05-05" room="R_7"/>
+         <stay day="2017-05-06" room="R_7"/>
+         <stay day="2017-05-07" room="R_7"/>
+      </patient>
+      <patient name="Pat_158">
+         <stay day="2017-05-05" room="R_2"/>
+         <stay day="2017-05-06" room="R_2"/>
+         <stay day="2017-05-07" room="R_2"/>
+      </patient>
+      <patient name="Pat_159">
+         <stay day="2017-05-09" room="R_10"/>
+         <stay day="2017-05-10" room="R_10"/>
+         <stay day="2017-05-11" room="R_10"/>
+      </patient>
+      <patient name="Pat_160">
+         <stay day="2017-05-05" room="R_16"/>
+         <stay day="2017-05-06" room="R_16"/>
+         <stay day="2017-05-07" room="R_16"/>
+      </patient>
+      <patient name="Pat_161">
+         <stay day="2017-05-05" room="R_13"/>
+         <stay day="2017-05-06" room="R_13"/>
+         <stay day="2017-05-07" room="R_13"/>
+      </patient>
+      <patient name="Pat_162">
+         <stay day="2017-05-05" room="R_6"/>
+      </patient>
+      <patient name="Pat_163">
+         <stay day="2017-05-05" room="R_10"/>
+         <stay day="2017-05-06" room="R_10"/>
+         <stay day="2017-05-07" room="R_10"/>
+      </patient>
+      <patient name="Pat_164">
+         <stay day="2017-05-08" room="R_12"/>
+         <stay day="2017-05-09" room="R_12"/>
+         <stay day="2017-05-10" room="R_12"/>
+      </patient>
+      <patient name="Pat_165">
+         <stay day="2017-05-08" room="R_19"/>
+      </patient>
+      <patient name="Pat_166">
+         <stay day="2017-05-08" room="R_6"/>
+         <stay day="2017-05-09" room="R_6"/>
+      </patient>
+      <patient name="Pat_167">
+         <stay day="2017-05-08" room="R_6"/>
+      </patient>
+      <patient name="Pat_168">
+         <stay day="2017-05-09" room="R_18"/>
+      </patient>
+      <patient name="Pat_169">
+         <stay day="2017-05-07" room="R_15"/>
+      </patient>
+      <patient name="Pat_170">
+         <stay day="2017-05-09" room="R_19"/>
+      </patient>
+      <patient name="Pat_171">
+         <stay day="2017-05-08" room="R_5"/>
+      </patient>
+      <patient name="Pat_172">
+         <stay day="2017-05-07" room="R_18"/>
+      </patient>
+      <patient name="Pat_173">
+         <stay day="2017-05-09" room="R_10"/>
+      </patient>
+      <patient name="Pat_174">
+         <stay day="2017-05-07" room="R_13"/>
+      </patient>
+      <patient name="Pat_175">
+         <stay day="2017-05-08" room="R_6"/>
+      </patient>
+      <patient name="Pat_176">
+         <stay day="2017-05-08" room="R_18"/>
+      </patient>
+      <patient name="Pat_177">
+         <stay day="2017-05-07" room="R_6"/>
+      </patient>
+      <patient name="Pat_178">
+         <stay day="2017-05-07" room="R_19"/>
+      </patient>
+      <patient name="Pat_179">
+         <stay day="2017-05-08" room="R_19"/>
+      </patient>
+   </patients_scheduling>
+</OrPasu_main_out>

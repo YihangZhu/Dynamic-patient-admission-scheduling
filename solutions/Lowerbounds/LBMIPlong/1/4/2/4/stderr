@@ -1,0 +1,5 @@
+gurobi.GRBException: Out of memory
+	at gurobi.GRBModel.optimize(GRBModel.java:658)
+	at util.Gurobi.optimize(Gurobi.java:154)
+	at pas.algoritm.mp.cg.MasterPatient.solve(MasterPatient.java:217)
+	at pas.algoritm.mp.cg.MasterPatient.main(MasterPatient.java:301)

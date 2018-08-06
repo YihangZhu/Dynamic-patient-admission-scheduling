@@ -1,0 +1,15 @@
+Instances/newGen/or_pas_dept2_short05.xml	RootLB:	38517.243372252735	MIPObjVal:	39793.0	runtime:	284.267982006073	Violations:	0	Total ObjVal:	39793
+Instances/newGen/or_pas_dept2_short06.xml	RootLB:	20502.17228708791	MIPObjVal:	21416.0	runtime:	840.9359259605408	Violations:	0	Total ObjVal:	21416
+Instances/newGen/or_pas_dept2_short07.xml	RootLB:	46528.93089364066	MIPObjVal:	51350.0	runtime:	204.51395201683044	Violations:	0	Total ObjVal:	51350
+Instances/newGen/or_pas_dept2_short08.xml	RootLB:	62664.84845938366	MIPObjVal:	63948.0	runtime:	283.60544180870056	Violations:	0	Total ObjVal:	63948
+Instances/newGen/or_pas_dept2_short09.xml	RootLB:	36498.69352361838	MIPObjVal:	37628.0	runtime:	76.900545835495	Violations:	0	Total ObjVal:	37628
+Instances/newGen/or_pas_dept4_short05.xml	RootLB:	24070.49314251644	MIPObjVal:	24632.0	runtime:	144.1641709804535	Violations:	0	Total ObjVal:	24632
+Instances/newGen/or_pas_dept4_short06.xml	RootLB:	47560.40105363984	MIPObjVal:	48265.0	runtime:	30.520127058029175	Violations:	0	Total ObjVal:	48265
+Instances/newGen/or_pas_dept4_short07.xml	RootLB:	25752.963654902793	MIPObjVal:	28399.0	runtime:	12.31845498085022	Violations:	0	Total ObjVal:	28399
+Instances/newGen/or_pas_dept4_short08.xml	RootLB:	31124.69115178885	MIPObjVal:	34823.0	runtime:	361.19933795928955	Violations:	0	Total ObjVal:	34823
+Instances/newGen/or_pas_dept4_short09.xml	RootLB:	34740.480944712835	MIPObjVal:	35530.0	runtime:	109.6769449710846	Violations:	0	Total ObjVal:	35530
+Instances/newGen/or_pas_dept6_short05.xml	RootLB:	54146.805559114706	MIPObjVal:	61320.0	runtime:	559.6683359146118	Violations:	0	Total ObjVal:	61320
+Instances/newGen/or_pas_dept6_short06.xml	RootLB:	99174.77904106569	MIPObjVal:	104161.0	runtime:	3600.005308866501	Violations:	0	Total ObjVal:	104161
+Instances/newGen/or_pas_dept6_short07.xml	RootLB:	56700.49648564726	MIPObjVal:	59220.0	runtime:	422.96695709228516	Violations:	0	Total ObjVal:	59220
+Instances/newGen/or_pas_dept6_short08.xml	RootLB:	55546.867877257326	MIPObjVal:	57851.0	runtime:	443.18369913101196	Violations:	0	Total ObjVal:	57851
+Instances/newGen/or_pas_dept6_short09.xml	RootLB:	54236.37331104186	MIPObjVal:	55998.0	runtime:	868.3705768585205	Violations:	0	Total ObjVal:	55998
