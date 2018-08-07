@@ -1,7 +1,9 @@
 # Short term and long term objective compatibility in dynamic patient admission scheduling
 
-This repository contains instances, solutions and validator related to the paper *Short term and long term objective compatibility in dynamic patient admission scheduling* by Yi-Hang Zhu, TÃºlio A.M. Toffolo, Wim Vancroonenburg and Greet Vanden Berghe
+This repository contains instances, solutions and validator related to the paper *Short term and long term objective compatibility in dynamic patient admission scheduling* by Yi-Hang Zhu, Túlio A.M. Toffolo, Wim Vancroonenburg and Greet Vanden Berghe
 .
+
+The dynamic patient admission scheduling problem was first introduced by *Ceschia, S., & Schaerf, A. (2016). Dynamic patient admission scheduling with operating room constraints, flexible horizons, and patient delays. Journal of Scheduling, 19(4), 377–389.*. Their expenrimental results are referred to https://bitbucket.org/satt/or-pas/.
  
 ##Instances
 
