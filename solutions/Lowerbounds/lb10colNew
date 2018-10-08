@@ -1,0 +1,218 @@
+// 10 col, compact. 
+2_short00	Linear relaxation:	51047.54860408937	runtime:	87.125	HPricing:	1.368	NPricing:	7.12
+2_short01	Linear relaxation:	56011.57746041703	runtime:	90.204	HPricing:	1.211	NPricing:	5.127
+2_short02	Linear relaxation:	41646.96453174281	runtime:	53.235	HPricing:	1.437	NPricing:	8.189
+2_short03	Linear relaxation:	57436.77793148828	runtime:	169.803	HPricing:	1.599	NPricing:	3.708
+2_short04	Linear relaxation:	35935.51722653828	runtime:	176.585	HPricing:	1.514	NPricing:	5.524
+4_short00	Linear relaxation:	125077.60532680951	runtime:	214.978	HPricing:	3.503	NPricing:	54.482
+4_short01	Linear relaxation:	89073.92755577821	runtime:	384.122	HPricing:	3.159	NPricing:	44.49
+4_short02	Linear relaxation:	93415.33853138817	runtime:	387.76	HPricing:	3.232	NPricing:	54.008
+4_short03	Linear relaxation:	86254.0630324322	runtime:	167.325	HPricing:	3.412	NPricing:	46.955
+4_short04	Linear relaxation:	80941.66831734181	runtime:	303.764	HPricing:	3.198	NPricing:	50.934
+
+//10 col, compact, 0 < z < 12_short00	Linear relaxation:	51047.548604089345	runtime:	110.53	HPricing:	0.0	NPricing:	0.0
+2_short01	Linear relaxation:	56011.57746041704	runtime:	111.575	HPricing:	0.0	NPricing:	0.0
+2_short02	Linear relaxation:	41646.9645317428	runtime:	54.498	HPricing:	0.0	NPricing:	0.0
+2_short03	Linear relaxation:	57436.777931488214	runtime:	207.067	HPricing:	0.0	NPricing:	0.0
+2_short04	Linear relaxation:	35935.51722653827	runtime:	171.112	HPricing:	0.0	NPricing:	0.0
+4_short00	Linear relaxation:	125077.60532680951	runtime:	236.866	HPricing:	0.0	NPricing:	0.0
+4_short01	Linear relaxation:	89073.92755577828	runtime:	397.232	HPricing:	0.0	NPricing:	0.0
+4_short02	Linear relaxation:	93415.33853138807	runtime:	441.626	HPricing:	0.0	NPricing:	0.0
+4_short03	Linear relaxation:	86254.06303243221	runtime:	192.68	HPricing:	0.0	NPricing:	0.0
+4_short04	Linear relaxation:	80941.66831734183	runtime:	323.834	HPricing:	0.0	NPricing:	0.0
+
+// 10 col, compact , only shortest path solver. 
+
+2_short00	Linear relaxation:	51047.548604089316	runtime:	67.286	HPricing:	0.0	NPricing:	0.0
+2_short01	Linear relaxation:	56011.577460417015	runtime:	84.412	HPricing:	0.0	NPricing:	0.0
+2_short02	Linear relaxation:	41646.96453174275	runtime:	38.861	HPricing:	0.0	NPricing:	0.0
+2_short03	Linear relaxation:	57436.77793148829	runtime:	107.626	HPricing:	0.0	NPricing:	0.0
+2_short04	Linear relaxation:	35935.5172265383	runtime:	128.118	HPricing:	0.0	NPricing:	0.0
+4_short00	Linear relaxation:	125077.60532680945	runtime:	140.532	HPricing:	0.0	NPricing:	0.0
+4_short01	Linear relaxation:	89073.92755577828	runtime:	317.178	HPricing:	0.0	NPricing:	0.0
+4_short02	Linear relaxation:	93415.33853138822	runtime:	388.955	HPricing:	0.0	NPricing:	0.0
+4_short03	Linear relaxation:	86254.06303243218	runtime:	109.5	HPricing:	0.0	NPricing:	0.0
+4_short04	Linear relaxation:	80941.66831734174	runtime:	267.915	HPricing:	0.0	NPricing:	0.0
+// 5 col, compact , only shortest path solver. 
+2_short00	Linear relaxation:	51047.548604089345	runtime:	76.862	HPricing:	0.0	NPricing:	0.0
+2_short01	Linear relaxation:	56011.577460417066	runtime:	71.959	HPricing:	0.0	NPricing:	0.0
+2_short02	Linear relaxation:	41646.96453174281	runtime:	34.627	HPricing:	0.0	NPricing:	0.0
+2_short03	Linear relaxation:	57436.777931488265	runtime:	113.382	HPricing:	0.0	NPricing:	0.0
+2_short04	Linear relaxation:	35935.517226538286	runtime:	148.96	HPricing:	0.0	NPricing:	0.0
+4_short00	Linear relaxation:	125077.60532680941	runtime:	153.662	HPricing:	0.0	NPricing:	0.0
+4_short01	Linear relaxation:	89073.92755577827	runtime:	334.758	HPricing:	0.0	NPricing:	0.0
+4_short02	Linear relaxation:	93415.33853138807	runtime:	400.395	HPricing:	0.0	NPricing:	0.0
+4_short03	Linear relaxation:	86254.06303243212	runtime:	138.395	HPricing:	0.0	NPricing:	0.0
+4_short04	Linear relaxation:	80941.66831734176	runtime:	221.794	HPricing:	0.0	NPricing:	0.0
+
+//10 col, compact, old formulation, only shortest path solver. 
+2_short00	Linear relaxation:	51047.548604089294	runtime:	29.145	HPricing:	0.0	NPricing:	0.0
+2_short01	Linear relaxation:	56011.577460417015	runtime:	31.759	HPricing:	0.0	NPricing:	0.0
+2_short02	Linear relaxation:	41646.96453174282	runtime:	14.042	HPricing:	0.0	NPricing:	0.0
+2_short03	Linear relaxation:	57436.77793148822	runtime:	33.486	HPricing:	0.0	NPricing:	0.0
+2_short04	Linear relaxation:	35935.51722653829	runtime:	30.834	HPricing:	0.0	NPricing:	0.0
+4_short00	Linear relaxation:	125077.60532680948	runtime:	79.522	HPricing:	0.0	NPricing:	0.0
+4_short01	Linear relaxation:	89073.9275557782	runtime:	158.77	HPricing:	0.0	NPricing:	0.0
+4_short02	Linear relaxation:	93415.33853138817	runtime:	181.09	HPricing:	0.0	NPricing:	0.0
+4_short03	Linear relaxation:	86254.06303243218	runtime:	73.976	HPricing:	0.0	NPricing:	0.0
+4_short04	Linear relaxation:	80941.66831734177	runtime:	148.084	HPricing:	0.0	NPricing:	0.0
+
+
+// 10 col, compact new formulation. shortest path solver. 
+2_short00	Linear relaxation:	51047.548604089316	runtime:	66.19		HPricing:	0.0	NPricing:	0.0
+2_short01	Linear relaxation:	56011.577460417015	runtime:	89.941		HPricing:	0.0	NPricing:	0.0
+2_short02	Linear relaxation:	41646.96453174275	runtime:	44.117		HPricing:	0.0	NPricing:	0.0
+2_short03	Linear relaxation:	57436.77793148829	runtime:	104.91		HPricing:	0.0	NPricing:	0.0
+2_short04	Linear relaxation:	35935.5172265383	runtime:	141.017		HPricing:	0.0	NPricing:	0.0
+4_short00	Linear relaxation:	125077.60532680945	runtime:	156.897		HPricing:	0.0	NPricing:	0.0
+4_short01	Linear relaxation:	89073.92755577828	runtime:	432.049		HPricing:	0.0	NPricing:	0.0
+4_short02	Linear relaxation:	93415.33853138822	runtime:	428.347		HPricing:	0.0	NPricing:	0.0
+4_short03	Linear relaxation:	86254.06303243218	runtime:	116.556		HPricing:	0.0	NPricing:	0.0
+4_short04	Linear relaxation:	80941.66831734174	runtime:	303.046		HPricing:	0.0	NPricing:	0.0
+6_short00	Linear relaxation:	144169.58467285198	runtime:	616.607		HPricing:	0.0	NPricing:	0.0
+6_short01	Linear relaxation:	149322.4306632633	runtime:	975.635		HPricing:	0.0	NPricing:	0.0
+6_short02	Linear relaxation:	133404.1151068798	runtime:	1543.985	HPricing:	0.0	NPricing:	0.0
+6_short03	Linear relaxation:	133269.23738954077	runtime:	1564.094	HPricing:	0.0	NPricing:	0.0
+6_short04	Linear relaxation:	161853.5416712632	runtime:	1034.961	HPricing:	0.0	NPricing:	0.0
+2_long00	Linear relaxation:	114825.74551513462	runtime:	2316.331	HPricing:	0.0	NPricing:	0.0
+2_long01	Linear relaxation:	116219.84598340541	runtime:	3481.471	HPricing:	0.0	NPricing:	0.0
+2_long02	Linear relaxation:	109962.11579943348	runtime:	2071.227	HPricing:	0.0	NPricing:	0.0
+2_long03	Linear relaxation:	87809.44088187238	runtime:	2304.309	HPricing:	0.0	NPricing:	0.0
+2_long04	Linear relaxation:	88026.18653117922	runtime:	2347.685	HPricing:	0.0	NPricing:	0.0
+4_long00	Linear relaxation:	144027.60527992333	runtime:	3097.112	HPricing:	0.0	NPricing:	0.0
+4_long01	Linear relaxation:	161444.84923965		runtime:	4736.311	HPricing:	0.0	NPricing:	0.0
+4_long02	Linear relaxation:	187503.91857460793	runtime:	7540.824	HPricing:	0.0	NPricing:	0.0
+4_long03	Linear relaxation:	199678.27424853132	runtime:	12279.319	HPricing:	0.0	NPricing:	0.0
+4_long04	Linear relaxation:	150247.56497958687	runtime:	31182.032	HPricing:	0.0	NPricing:	0.0
+
+  //10 col, new formulation, two z, compact, only with shortet path algorithm
+2_short00	Linear relaxation:	51047.54860408939	runtime:	64.784
+2_short01	Linear relaxation:	56011.577460417044	runtime:	81.669
+2_short02	Linear relaxation:	41646.964531742844	runtime:	34.4
+2_short03	Linear relaxation:	57436.777931488235	runtime:	129.763
+2_short04	Linear relaxation:	35935.51722653836	runtime:	109.07
+2_long00	Linear relaxation:	114825.74551513474	runtime:	2853.563
+2_long01	Linear relaxation:	116219.8459834055	runtime:	3006.73
+2_long02	Linear relaxation:	109967.34596198316	runtime:	2215.918
+2_long03	Linear relaxation:	87809.44088187224	runtime:	2280.474
+2_long04	Linear relaxation:	88026.18653117916	runtime:	2515.63
+4_short00	Linear relaxation:	125077.60532680945	runtime:	166.981
+4_short01	Linear relaxation:	89073.9275557782	runtime:	537.72
+4_short02	Linear relaxation:	93415.33853138807	runtime:	522.579
+4_short03	Linear relaxation:	86254.06303243212	runtime:	106.634
+4_short04	Linear relaxation:	80941.66831734168	runtime:	278.874
+6_short00	Linear relaxation:	144169.5846728521	runtime:	596.344
+6_short01	Linear relaxation:	149322.43066326267	runtime:	890.664
+6_short02	Linear relaxation:	133404.11510688002	runtime:	1596.032
+6_short03	Linear relaxation:	133269.2373895411	runtime:	1579.24
+6_short04	Linear relaxation:	161868.86370099802	runtime:	958.553
+4_long00	Linear relaxation:	144027.60527992304	runtime:	3407.483
+4_long01	Linear relaxation:	161444.84923965015	runtime:	5572.679
+4_long02	Linear relaxation:	187503.91857460802	runtime:	7245.889
+4_long03	Linear relaxation:	201786.3515351817	runtime:	14879.784
+4_long04	Linear relaxation:	150247.56497958727	runtime:	28445.635
+6_long02	Linear relaxation:	287883.16878276767	runtime:	43668.874
+6_long03	Linear relaxation:	325558.04929031583	runtime:	54506.094
+6_long04	Linear relaxation:	226336.81767852593	runtime:	11036.15
+
+
+//10 col, new formulation, one z, compact, only with shortet path algorithm
+2_short00	Linear relaxation:	51047.54860408934	runtime:	30.808
+2_short01	Linear relaxation:	56011.57746041704	runtime:	33.989
+2_short02	Linear relaxation:	41646.96453174277	runtime:	17.923
+2_short03	Linear relaxation:	57436.77793148825	runtime:	40.178
+2_short04	Linear relaxation:	35935.51722653826	runtime:	38.977
+4_short00	Linear relaxation:	125077.60532680951	runtime:	76.161
+4_short01	Linear relaxation:	89073.92755577821	runtime:	162.895
+4_short02	Linear relaxation:	93415.33853138794	runtime:	252.682
+4_short03	Linear relaxation:	86254.0630324322	runtime:	75.917
+4_short04	Linear relaxation:	80941.66831734177	runtime:	152.813
+6_short00	Linear relaxation:	144169.58467285184	runtime:	288.29
+6_short01	Linear relaxation:	149322.43066326325	runtime:	361.353
+6_short02	Linear relaxation:	133404.11510687982	runtime:	678.641
+6_short03	Linear relaxation:	133269.23738954082	runtime:	485.37
+6_short04	Linear relaxation:	161868.86370099787	runtime:	340.602
+2_long00	Linear relaxation:	114825.74551513477	runtime:	762.111
+2_long01	Linear relaxation:	116219.84598340522	runtime:	697.313
+2_long02	Linear relaxation:	109967.34596198339	runtime:	392.734
+2_long03	Linear relaxation:	87809.44088187242	runtime:	522.334
+2_long04	Linear relaxation:	88026.18653117925	runtime:	708.668
+4_long01	Linear relaxation:	161444.8492396499	runtime:	2226.976
+4_long02	Linear relaxation:	187503.91857460808	runtime:	5582.587
+4_long03	Linear relaxation:	201786.3515351819	runtime:	7455.504
+4_long04	Linear relaxation:	150247.56497958687	runtime:	10396.667
+6_long00	Linear relaxation:	312311.73703694786	runtime:	25422.868
+//10 col, new formulation, one z, compact, only with shortet path algorithm
+2_short00	Linear relaxation:	51047.54860408934	runtime:	30.677
+2_short01	Linear relaxation:	56011.57746041704	runtime:	32.352
+2_short02	Linear relaxation:	41646.96453174277	runtime:	15.98
+2_short03	Linear relaxation:	57436.77793148825	runtime:	39.908
+2_short04	Linear relaxation:	35935.51722653826	runtime:	40.595
+4_short00	Linear relaxation:	125077.60532680951	runtime:	74.951
+4_short01	Linear relaxation:	89073.92755577821	runtime:	166.71
+4_short02	Linear relaxation:	93415.33853138794	runtime:	257.7
+4_short03	Linear relaxation:	86254.0630324322	runtime:	75.023
+4_short04	Linear relaxation:	80941.66831734177	runtime:	146.329
+6_short00	Linear relaxation:	144169.58467285184	runtime:	285.146
+6_short01	Linear relaxation:	149322.43066326325	runtime:	349.814
+6_short02	Linear relaxation:	133404.11510687982	runtime:	674.079
+6_short03	Linear relaxation:	133269.23738954082	runtime:	487.048
+6_short04	Linear relaxation:	161868.86370099787	runtime:	342.441
+2_long00	Linear relaxation:	114825.74551513477	runtime:	791.243
+2_long01	Linear relaxation:	116219.84598340522	runtime:	668.741
+2_long02	Linear relaxation:	109967.34596198339	runtime:	388.369
+2_long03	Linear relaxation:	87809.44088187242	runtime:	512.544
+2_long04	Linear relaxation:	88026.18653117925	runtime:	709.095
+//10 col, no artificial variable, new formulation, one z, compact, only with shortet path algorithm
+2_short00	Linear relaxation:	51047.54860408931	runtime:	31.467
+2_short01	Linear relaxation:	56011.57746041701	runtime:	30.265
+2_short02	Linear relaxation:	41646.9645317428	runtime:	20.484
+2_short03	Linear relaxation:	57436.77793148828	runtime:	34.723
+2_short04	Linear relaxation:	35935.51722653832	runtime:	42.085
+4_short00	Linear relaxation:	125077.60532680947	runtime:	71.512
+4_short01	Linear relaxation:	89073.9275557783	runtime:	184.994
+4_short02	Linear relaxation:	93415.3385313881	runtime:	211.244
+4_short03	Linear relaxation:	86254.0630324322	runtime:	70.183
+4_short04	Linear relaxation:	80941.66831734187	runtime:	148.694
+6_short00	Linear relaxation:	144169.58467285195	runtime:	262.897
+6_short01	Linear relaxation:	149322.43066326328	runtime:	343.726
+6_short02	Linear relaxation:	133404.11510688005	runtime:	636.324
+6_short03	Linear relaxation:	133269.23738954103	runtime:	458.832
+6_short04	Linear relaxation:	161868.86370099796	runtime:	327.1
+2_long00	Linear relaxation:	114825.74551513503	runtime:	588.429
+2_long01	Linear relaxation:	116219.84598340541	runtime:	562.991
+2_long02	Linear relaxation:	109967.34596198321	runtime:	299.949
+2_long03	Linear relaxation:	87809.44088187233	runtime:	465.094
+2_long04	Linear relaxation:	88026.18653117912	runtime:	710.792
+4_long00	Linear relaxation:	144027.6052799232	runtime:	1207.393
+4_long01	Linear relaxation:	161444.84923965018	runtime:	1363.721
+4_long02	Linear relaxation:	187503.9185746077	runtime:	1938.312
+4_long03	Linear relaxation:	201786.35153518172	runtime:	4028.152
+4_long04	Linear relaxation:	150247.56497958687	runtime:	6398.739
+6_long02	Linear relaxation:	287883.16878275556	runtime:	8954.962
+6_long03	Linear relaxation:	325558.04929031606	runtime:	14240.062
+6_long04	Linear relaxation:	226336.81767852482	runtime:	3499.202
+6_long00	Linear relaxation:	312311.7370369482	runtime:	20426.945
+6_long01	Linear relaxation:	356361.57223560347	runtime:	37407.623
+//10 col, no initial solutions, new formulation, one z, compact, only with shortet path algorithm
+2_short00	Linear relaxation:	51047.548604089374	runtime:	51.713
+2_short01	Linear relaxation:	56011.57746041707	runtime:	54.743
+2_short02	Linear relaxation:	41646.96453174281	runtime:	23.066
+2_short03	Linear relaxation:	57436.777931488265	runtime:	56.096
+2_short04	Linear relaxation:	35935.5172265383	runtime:	61.353
+4_short00	Linear relaxation:	125077.60532680945	runtime:	141.744
+4_short01	Linear relaxation:	89073.9275557781	runtime:	355.574
+4_short02	Linear relaxation:	93415.33853138814	runtime:	370.486
+4_short03	Linear relaxation:	86254.0630324322	runtime:	177.344
+4_short04	Linear relaxation:	80941.66831734189	runtime:	242.936
+6_short00	Linear relaxation:	144169.5846728519	runtime:	503.04
+6_short01	Linear relaxation:	149322.43066326305	runtime:	452.255
+6_short02	Linear relaxation:	133404.11510688026	runtime:	1096.393
+6_short03	Linear relaxation:	133269.23738954117	runtime:	705.796
+6_short04	Linear relaxation:	161868.86370099775	runtime:	755.703
+2_long00	Linear relaxation:	114825.74551513439	runtime:	933.615
+2_long01	Linear relaxation:	116219.84598340529	runtime:	911.606
+2_long02	Linear relaxation:	109967.34596198346	runtime:	417.903
+2_long03	Linear relaxation:	87809.44088187223	runtime:	660.398
+2_long04	Linear relaxation:	88026.1865311792	runtime:	1250.039
+

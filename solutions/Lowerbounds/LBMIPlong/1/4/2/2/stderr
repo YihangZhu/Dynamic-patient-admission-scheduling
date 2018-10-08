@@ -1,7 +1,0 @@
-Exception in thread "main" java.util.EmptyStackException
-	at java.util.Stack.peek(Stack.java:102)
-	at java.util.Stack.pop(Stack.java:84)
-	at algorithm.columnGeneration.PricingHAbs.solve(PricingHAbs.java:52)
-	at algorithm.columnGeneration.MasterAbs.solvePricing(MasterAbs.java:56)
-	at pas.algoritm.mp.cg.MasterPatient.solve(MasterPatient.java:224)
-	at pas.algoritm.mp.cg.MasterPatient.main(MasterPatient.java:301)
