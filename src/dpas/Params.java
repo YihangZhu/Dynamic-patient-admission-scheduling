@@ -68,7 +68,7 @@ public class Params {
     //run
     public static int SEED = 0;
 
-    static String instanceFilePath;
+    public static String instanceFilePath;
     static String resultsFilePath;
     public static String importSolutionPath;
 
@@ -81,7 +81,7 @@ public class Params {
     }
 
     public static boolean importSol = false;
-    public static boolean display = true;
+    public static boolean display = false;
     public static boolean printColumn = false;
     public static boolean STATIC = false;
     public static boolean transfer = false;
@@ -93,7 +93,7 @@ public class Params {
     public final static double a = 4;
     public final static double b = 150;
 
-    public static String genderPolicyConstr = "5"; // 1 2 3, 4 5 6
+    public static String genderPolicyConstr = "5"; // 4 5 6
     public static double timeLimit = 3600;
     public static double mipGap = 1e-4;
 }
