@@ -12,9 +12,11 @@ import dpas.schedule.Problem;
 import dpas.schedule.SPatient;
 import dpas.schedule.ScheduleResult;
 import dpas.schedule.Solution;
+import util.DrawModel;
 import util.Gurobi;
 import util.Util;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 /**

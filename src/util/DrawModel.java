@@ -34,11 +34,18 @@ public final class DrawModel {
     private GRBModel model;
     private int varNum, constrNum;
     private ArrayList<GRBVar> totVars;
-    private HashMap<GRBConstr,Integer> constrMap = new HashMap<>();
-    private HashMap<GRBVar,Integer> varsMap = new HashMap<>();
-    public HashMap<Integer,ArrayList<GRBVar>> pricingVars = new HashMap<>();
-    private HashMap<Integer,ArrayList<GRBConstr>> pricingConstrs = new HashMap<>();
-    private HashMap<Integer,ArrayList<GRBConstr>> pricingCoupleConstrs = new HashMap<>();
+    private HashMap<GRBConstr,Integer> constrMap = new HashMap<>();//map each constraint to a unique number
+    private HashMap<GRBVar,Integer> varsMap = new HashMap<>(); //map each variable to a unique number
+    public HashMap<Integer,ArrayList<GRBVar>> pricingVars = new HashMap<>();//map variables to the index of each pattern
+    private HashMap<Integer,ArrayList<GRBConstr>> pricingConstrs = new HashMap<>();//map constraints to the index of variables
+    private HashMap<Integer,ArrayList<GRBConstr>> pricingCoupleConstrs = new HashMap<>(); // map constraints to the index of varibles
+
+    /**
+     * Dantzig wolfe decomposition graph.
+     * x axis is pattern, Y axix is constraints.
+     * e.g. if constraint a appear in both pattern 1 and pattern 2, there would be a horizonal line from point (1,a) to (2,a)
+     * before make this graph, we should know the relations between variables to different patterns
+     */
 
     public DrawModel(GRBModel model) {
         this.model = model;
@@ -95,18 +102,19 @@ public final class DrawModel {
     /**
      *
      * @param pattern p
-     * sort the related constraints of pattern p.
+     * get variables associated with pattern p
+     * assign constraints to the list of each varibles the constraint contains.
      */
     public int sortConstrs(int p) throws GRBException{
         for (int i = 0; i < pricingVars.get(p).size(); i++) {
             GRBVar var = pricingVars.get(p).get(i);
             pricingConstrs.put(varsMap.get(var),new ArrayList<>());
             pricingCoupleConstrs.put(varsMap.get(var),new ArrayList<>());
-            GRBColumn col = model.getCol(var);
+            GRBColumn col = model.getCol(var); // get the constraints associated with the variable
             for (int j = 0; j < col.size(); j++) {
                 GRBConstr constr  = col.getConstr(j);
-                GRBLinExpr expr = model.getRow(constr);
-                boolean couplingConstr = false;
+                GRBLinExpr expr = model.getRow(constr); //get the constraint
+                boolean couplingConstr = false; //true if the constraint is associated with different pattern otherwise false
                 for (int k = 0; k < expr.size(); k++) {
                     GRBVar var1 = expr.getVar(k);
                     if (!pricingVars.get(p).contains(var1)){
@@ -135,7 +143,8 @@ public final class DrawModel {
             }
         }
     }
-
+    //assign all the rest variables to the last block
+    //and sort the associated constraints
     private void sortRestVarsConstrs(int p) throws GRBException{
         pricingVars.put(p,new ArrayList<>());
         for (GRBVar var : totVars) {
@@ -155,8 +164,6 @@ public final class DrawModel {
     }
 
     /**
-     *
-     * @param block i for the rest constraints
      * @param blockNum number of patterns
      * visualize the whole model
      */
